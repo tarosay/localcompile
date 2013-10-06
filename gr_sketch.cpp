@@ -1,15 +1,11 @@
 /*GR-SAKURA Sketch Template Version: V1.08*/
 #include <rxduino.h>
 
-//#define CHANGE_HEAP_SIZE(size) __asm__ volatile ("\t.globl _min_heap_size\n\t.equ _min_heap_size, " #size "\n")
-
 #include "mruby.h"
 #include <mruby/irep.h>
 #include <mruby/string.h>
 
 #include "sample.c"
-
-//CHANGE_HEAP_SIZE(100*1024);  //ヒープサイズを100kbにする。
 
 extern const uint8_t code[];
 
@@ -35,10 +31,7 @@ void setup(){
   mrb_define_method(mrb, mrb->object_class, "cdigitalWrite", cdigitalWrite, ARGS_REQ(2));
 
   mrb_load_irep( mrb, code);
-
  }
 
 void loop(){
-
-
 }
