@@ -1,0 +1,3160 @@
+Archive member included because of file (symbol)
+
+./gr_common/lib/libc.a(lib_a-errno.o)
+                              ./gr_common/lowlevel.o (__errno)
+./gr_common/lib/libc.a(lib_a-impure.o)
+                              ./gr_common/lib/libc.a(lib_a-errno.o) (_impure_ptr)
+./gr_common/lib/librxduino.a(digitalio.o)
+                              ./gr_sketch.o (pinMode)
+./gr_common/lib/librxduino.a(rxduino.o)
+                              ./gr_common/gstart.o (main)
+./gr_common/lib/librxduino.a(delay.o)
+                              ./gr_common/lib/librxduino.a(digitalio.o) (micros)
+./gr_common/lib/libtkdnhal.a(hwsetup.o)
+                              ./gr_common/gstart.o (tkdn_hwsetup)
+./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+                              ./gr_common/intvect.o (Excep_SCI0_RXI0)
+./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+                              ./gr_common/lib/libtkdnhal.a(hwsetup.o) (ether_close)
+./gr_common/lib/libtkdnhal.a(tkdn_timer.o)
+                              ./gr_common/lib/librxduino.a(delay.o) (timer_wait_ms)
+./gr_common/lib/libtkdnhal.a(tkdn_gpio.o)
+                              ./gr_common/lib/librxduino.a(digitalio.o) (gpio_set_pinmode)
+./gr_common/lib/libtkdnhal.a(tkdn_pwm.o)
+                              ./gr_common/lib/librxduino.a(digitalio.o) (pwmpincount)
+./gr_common/lib/libtkdnhal.a(tkdn_tone.o)
+                              ./gr_common/intvect.o (Excep_CMT1_CMI1)
+./gr_common/lib/libtkdnhal.a(phy.o)
+                              ./gr_common/lib/libtkdnhal.a(tkdn_ether.o) (phy_stop)
+./gr_common/lib/libtkdnhal.a(usb_cdc.o)
+                              ./gr_common/lib/libtkdnhal.a(tkdn_sci.o) (TKUSB_Init)
+./gr_common/lib/libtkdnhal.a(usb_core.o)
+                              ./gr_common/lib/libtkdnhal.a(usb_cdc.o) (USBCORE_Init)
+./gr_common/lib/libtkdnhal.a(usb_hal.o)
+                              ./gr_common/lib/libtkdnhal.a(tkdn_sci.o) (TKUSB_RecvByte)
+./gr_common/lib/libtkdnhal.a(usbdescriptors.o)
+                              ./gr_common/lib/libtkdnhal.a(usb_cdc.o) (gStringDescriptorSerialNum)
+./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+                              ./gr_common/intvect.o (Excep_IRQ0)
+./gr_common/lib/libtkdnhal.a(tkdn_servo.o)
+                              ./gr_common/intvect.o (Excep_TPU6_TGIA6)
+./gr_common/lib/libtkdnhal.a(reboot.o)
+                              ./gr_common/lib/librxduino.a(rxduino.o) (system_reboot)
+./gr_mruby/libmruby.a(class.o)
+                              ./gr_sketch.o (mrb_define_method)
+./gr_mruby/libmruby.a(error.o)
+                              ./gr_mruby/libmruby.a(class.o) (mrb_raise)
+./gr_mruby/libmruby.a(gc.o)   ./gr_mruby/libmruby.a(class.o) (mrb_free)
+./gr_mruby/libmruby.a(hash.o)
+                              ./gr_mruby/libmruby.a(gc.o) (mrb_gc_mark_hash)
+./gr_mruby/libmruby.a(kernel.o)
+                              ./gr_mruby/libmruby.a(error.o) (mrb_obj_clone)
+./gr_mruby/libmruby.a(load.o)
+                              ./gr_sketch.o (mrb_load_irep)
+./gr_mruby/libmruby.a(object.o)
+                              ./gr_mruby/libmruby.a(error.o) (mrb_obj_equal)
+./gr_mruby/libmruby.a(print.o)
+                              ./gr_mruby/libmruby.a(error.o) (mrb_p)
+./gr_mruby/libmruby.a(proc.o)
+                              ./gr_mruby/libmruby.a(load.o) (mrb_proc_new)
+./gr_mruby/libmruby.a(state.o)
+                              ./gr_mruby/libmruby.a(proc.o) (mrb_alloca)
+./gr_mruby/libmruby.a(string.o)
+                              ./gr_mruby/libmruby.a(class.o) (mrb_str_modify)
+./gr_mruby/libmruby.a(symbol.o)
+                              ./gr_mruby/libmruby.a(class.o) (mrb_intern2)
+./gr_mruby/libmruby.a(variable.o)
+                              ./gr_mruby/libmruby.a(gc.o) (mrb_gc_mark_gv)
+./gr_mruby/libmruby.a(vm.o)   ./gr_mruby/libmruby.a(error.o) (mrb_longjmp)
+./gr_mruby/libmruby.a(array.o)
+                              ./gr_mruby/libmruby.a(string.o) (mrb_ary_pop)
+./gr_mruby/libmruby.a(backtrace.o)
+                              ./gr_mruby/libmruby.a(print.o) (mrb_print_backtrace)
+./gr_mruby/libmruby.a(crc.o)  ./gr_mruby/libmruby.a(load.o) (calc_crc_16_ccitt)
+./gr_mruby/libmruby.a(debug.o)
+                              ./gr_mruby/libmruby.a(error.o) (mrb_debug_get_filename)
+./gr_mruby/libmruby.a(etc.o)  ./gr_mruby/libmruby.a(kernel.o) (mrb_obj_id)
+./gr_mruby/libmruby.a(init.o)
+                              ./gr_mruby/libmruby.a(state.o) (mrb_init_core)
+./gr_mruby/libmruby.a(numeric.o)
+                              ./gr_mruby/libmruby.a(object.o) (mrb_flo_to_fixnum)
+./gr_mruby/libmruby.a(range.o)
+                              ./gr_mruby/libmruby.a(vm.o) (mrb_range_new)
+./gr_mruby/libmruby.a(mrblib.o)
+                              ./gr_mruby/libmruby.a(init.o) (mrb_init_mrblib)
+./gr_mruby/libmruby.a(gem_init.o)
+                              ./gr_mruby/libmruby.a(init.o) (mrb_init_mrbgems)
+./gr_mruby/libmruby.a(compar.o)
+                              ./gr_mruby/libmruby.a(init.o) (mrb_init_comparable)
+./gr_mruby/libmruby.a(enum.o)
+                              ./gr_mruby/libmruby.a(init.o) (mrb_init_enumerable)
+./gr_mruby/libmruby.a(gem_init.o)
+                              ./gr_mruby/libmruby.a(gem_init.o) (GENERATED_TMP_mrb_mruby_math_gem_init)
+./gr_mruby/libmruby.a(math.o)
+                              ./gr_mruby/libmruby.a(gem_init.o) (mrb_mruby_math_gem_init)
+./gr_common/lib//libc.a(lib_a-abort.o)
+                              ./gr_mruby/libmruby.a(error.o) (abort)
+./gr_common/lib//libc.a(lib_a-ctype_.o)
+                              ./gr_mruby/libmruby.a(class.o) (__ctype_ptr__)
+./gr_common/lib//libc.a(lib_a-exit.o)
+                              ./gr_mruby/libmruby.a(error.o) (exit)
+./gr_common/lib//libc.a(lib_a-fread.o)
+                              ./gr_mruby/libmruby.a(load.o) (fread)
+./gr_common/lib//libc.a(lib_a-fseek.o)
+                              ./gr_mruby/libmruby.a(load.o) (fseek)
+./gr_common/lib//libc.a(lib_a-fstatr.o)
+                              ./gr_common/lib//libc.a(lib_a-fseek.o) (_fstat_r)
+./gr_common/lib//libc.a(lib_a-ftell.o)
+                              ./gr_mruby/libmruby.a(load.o) (ftell)
+./gr_common/lib//libc.a(lib_a-fwrite.o)
+                              ./gr_mruby/libmruby.a(error.o) (fwrite)
+./gr_common/lib//libc.a(lib_a-makebuf.o)
+                              ./gr_common/lib//libc.a(lib_a-fseek.o) (__smakebuf_r)
+./gr_common/lib//libc.a(lib_a-malloc.o)
+                              ./gr_mruby/libmruby.a(state.o) (free)
+./gr_common/lib//libc.a(lib_a-mallocr.o)
+                              ./gr_common/lib//libc.a(lib_a-makebuf.o) (_malloc_r)
+./gr_common/lib//libc.a(lib_a-memchr.o)
+                              ./gr_mruby/libmruby.a(string.o) (memchr)
+./gr_common/lib//libc.a(lib_a-memcpy.o)
+                              ./gr_common/lib//libc.a(lib_a-fread.o) (memcpy)
+./gr_common/lib//libc.a(lib_a-memset.o)
+                              ./gr_common/lib//libc.a(lib_a-fseek.o) (memset)
+./gr_common/lib//libc.a(lib_a-mlock.o)
+                              ./gr_common/lib//libc.a(lib_a-mallocr.o) (__malloc_lock)
+./gr_common/lib//libc.a(lib_a-printf.o)
+                              ./gr_mruby/libmruby.a(vm.o) (printf)
+./gr_common/lib//libc.a(lib_a-realloc.o)
+                              ./gr_mruby/libmruby.a(state.o) (realloc)
+./gr_common/lib//libc.a(lib_a-reallocr.o)
+                              ./gr_common/lib//libc.a(lib_a-realloc.o) (_realloc_r)
+./gr_common/lib//libc.a(lib_a-reent.o)
+                              ./gr_common/lib//libc.a(lib_a-fstatr.o) (errno)
+./gr_common/lib//libc.a(lib_a-refill.o)
+                              ./gr_common/lib//libc.a(lib_a-fread.o) (__srefill_r)
+./gr_common/lib//libc.a(lib_a-sbrkr.o)
+                              ./gr_common/lib//libc.a(lib_a-mallocr.o) (_sbrk_r)
+./gr_common/lib//libc.a(lib_a-setjmp.o)
+                              ./gr_mruby/libmruby.a(vm.o) (setjmp)
+./gr_common/lib//libc.a(lib_a-sf_fpclassify.o)
+                              ./gr_mruby/libmruby.a(numeric.o) (__fpclassifyf)
+./gr_common/lib//libc.a(lib_a-sf_frexp.o)
+                              ./gr_mruby/libmruby.a(math.o) (frexp)
+./gr_common/lib//libc.a(lib_a-sf_ldexp.o)
+                              ./gr_mruby/libmruby.a(math.o) (ldexp)
+./gr_common/lib//libc.a(lib_a-sf_scalbn.o)
+                              ./gr_common/lib//libc.a(lib_a-sf_ldexp.o) (scalbnf)
+./gr_common/lib//libc.a(lib_a-signal.o)
+                              ./gr_common/lib//libc.a(lib_a-abort.o) (raise)
+./gr_common/lib//libc.a(lib_a-signalr.o)
+                              ./gr_common/lib//libc.a(lib_a-signal.o) (_kill_r)
+./gr_common/lib//libc.a(lib_a-stdio.o)
+                              ./gr_common/lib//libc.a(lib_a-fseek.o) (__sseek)
+./gr_common/lib//libc.a(lib_a-strlen.o)
+                              ./gr_mruby/libmruby.a(class.o) (strlen)
+./gr_common/lib//libc.a(lib_a-strtod.o)
+                              ./gr_mruby/libmruby.a(string.o) (strtod)
+./gr_common/lib//libc.a(lib_a-strtoul.o)
+                              ./gr_mruby/libmruby.a(string.o) (strtoul)
+./gr_common/lib//libc.a(lib_a-vfprintf.o)
+                              ./gr_common/lib//libc.a(lib_a-printf.o) (_vfprintf_r)
+./gr_common/lib//libc.a(lib_a-vsnprintf.o)
+                              ./gr_mruby/libmruby.a(backtrace.o) (vsnprintf)
+./gr_common/lib//libc.a(lib_a-wbuf.o)
+                              ./gr_mruby/libmruby.a(print.o) (__swbuf_r)
+./gr_common/lib//libc.a(lib_a-writer.o)
+                              ./gr_common/lib//libc.a(lib_a-stdio.o) (_write_r)
+./gr_common/lib//libc.a(lib_a-wsetup.o)
+                              ./gr_common/lib//libc.a(lib_a-vfprintf.o) (__swsetup_r)
+./gr_common/lib//libc.a(lib_a-__call_atexit.o)
+                              ./gr_common/lib//libc.a(lib_a-exit.o) (__call_exitprocs)
+./gr_common/lib//libc.a(lib_a-closer.o)
+                              ./gr_common/lib//libc.a(lib_a-stdio.o) (_close_r)
+./gr_common/lib//libc.a(lib_a-dtoa.o)
+                              ./gr_common/lib//libc.a(lib_a-vfprintf.o) (_dtoa_r)
+./gr_common/lib//libc.a(lib_a-fflush.o)
+                              ./gr_common/lib//libc.a(lib_a-refill.o) (__sflush_r)
+./gr_common/lib//libc.a(lib_a-findfp.o)
+                              ./gr_common/lib//libc.a(lib_a-makebuf.o) (_cleanup_r)
+./gr_common/lib//libc.a(lib_a-freer.o)
+                              ./gr_common/lib//libc.a(lib_a-fseek.o) (_free_r)
+./gr_common/lib//libc.a(lib_a-fvwrite.o)
+                              ./gr_common/lib//libc.a(lib_a-fwrite.o) (__sfvwrite_r)
+./gr_common/lib//libc.a(lib_a-fwalk.o)
+                              ./gr_common/lib//libc.a(lib_a-refill.o) (_fwalk)
+./gr_common/lib//libc.a(lib_a-gdtoa-hexnan.o)
+                              ./gr_common/lib//libc.a(lib_a-strtod.o) (__hexnan)
+./gr_common/lib//libc.a(lib_a-isattyr.o)
+                              ./gr_common/lib//libc.a(lib_a-makebuf.o) (_isatty_r)
+./gr_common/lib//libc.a(lib_a-locale.o)
+                              ./gr_common/lib//libc.a(lib_a-strtod.o) (_localeconv_r)
+./gr_common/lib//libc.a(lib_a-lseekr.o)
+                              ./gr_common/lib//libc.a(lib_a-stdio.o) (_lseek_r)
+./gr_common/lib//libc.a(lib_a-memmove.o)
+                              ./gr_common/lib//libc.a(lib_a-reallocr.o) (memmove)
+./gr_common/lib//libc.a(lib_a-mprec.o)
+                              ./gr_common/lib//libc.a(lib_a-strtod.o) (_Balloc)
+./gr_common/lib//libc.a(lib_a-readr.o)
+                              ./gr_common/lib//libc.a(lib_a-stdio.o) (_read_r)
+./gr_common/lib//libc.a(lib_a-sf_copysign.o)
+                              ./gr_common/lib//libc.a(lib_a-sf_scalbn.o) (copysignf)
+./gr_common/lib//libc.a(lib_a-sf_finite.o)
+                              ./gr_common/lib//libc.a(lib_a-sf_ldexp.o) (finitef)
+./gr_common/lib//libc.a(lib_a-sf_nan.o)
+                              ./gr_common/lib//libc.a(lib_a-strtod.o) (nanf)
+./gr_common/lib//libc.a(lib_a-strcmp.o)
+                              ./gr_common/lib//libc.a(lib_a-locale.o) (strcmp)
+./gr_common/lib//libc.a(lib_a-strncmp.o)
+                              ./gr_common/lib//libc.a(lib_a-strtod.o) (strncmp)
+./gr_common/lib//libc.a(lib_a-svfprintf.o)
+                              ./gr_common/lib//libc.a(lib_a-vsnprintf.o) (_svfprintf_r)
+./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+                              ./gr_common/lib//libc.a(lib_a-vfprintf.o) (__sprint_r)
+./gr_common/lib//libc.a(lib_a-callocr.o)
+                              ./gr_common/lib//libc.a(lib_a-mprec.o) (_calloc_r)
+./gr_common/lib//libc.a(lib_a-fclose.o)
+                              ./gr_common/lib//libc.a(lib_a-findfp.o) (fclose)
+./gr_common/lib//libc.a(lib_a-fputwc.o)
+                              ./gr_common/lib//libc.a(lib_a-vfiprintf.o) (_fputwc_r)
+./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+                              ./gr_common/lib//libc.a(lib_a-gdtoa-hexnan.o) (__hexdig)
+./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+                              ./gr_common/lib//libc.a(lib_a-svfprintf.o) (__ssprint_r)
+./gr_common/lib//libc.a(lib_a-wcrtomb.o)
+                              ./gr_common/lib//libc.a(lib_a-fputwc.o) (_wcrtomb_r)
+./gr_common/lib//libc.a(lib_a-wctomb_r.o)
+                              ./gr_common/lib//libc.a(lib_a-wcrtomb.o) (__wctomb)
+./gr_common/lib//libsim.a(exit.o)
+                              ./gr_common/lib//libc.a(lib_a-abort.o) (_exit)
+./gr_common/lib//libsim.a(getpid.o)
+                              ./gr_common/lib//libc.a(lib_a-signalr.o) (getpid)
+./gr_common/lib//libsim.a(kill.o)
+                              ./gr_common/lib//libc.a(lib_a-signalr.o) (kill)
+./gr_common/lib//libgcc.a(_udivdi3.o)
+                              ./gr_common/lib//libc.a(lib_a-vfprintf.o) (__udivdi3)
+./gr_common/lib//libgcc.a(_umoddi3.o)
+                              ./gr_common/lib//libc.a(lib_a-vfprintf.o) (__umoddi3)
+./gr_common/lib//libgcc.a(_clz.o)
+                              ./gr_common/lib//libgcc.a(_udivdi3.o) (__clz_tab)
+./gr_common/lib//libm.a(lib_a-sf_asinh.o)
+                              ./gr_mruby/libmruby.a(math.o) (asinh)
+./gr_common/lib//libm.a(lib_a-sf_atan.o)
+                              ./gr_mruby/libmruby.a(math.o) (atan)
+./gr_common/lib//libm.a(lib_a-sf_cbrt.o)
+                              ./gr_mruby/libmruby.a(math.o) (cbrt)
+./gr_common/lib//libm.a(lib_a-sf_ceil.o)
+                              ./gr_mruby/libmruby.a(numeric.o) (ceilf)
+./gr_common/lib//libm.a(lib_a-sf_cos.o)
+                              ./gr_mruby/libmruby.a(math.o) (cos)
+./gr_common/lib//libm.a(lib_a-sf_erf.o)
+                              ./gr_mruby/libmruby.a(math.o) (erf)
+./gr_common/lib//libm.a(lib_a-sf_fabs.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_asinh.o) (fabsf)
+./gr_common/lib//libm.a(lib_a-sf_floor.o)
+                              ./gr_mruby/libmruby.a(numeric.o) (floorf)
+./gr_common/lib//libm.a(lib_a-sf_log1p.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_asinh.o) (log1pf)
+./gr_common/lib//libm.a(lib_a-sf_sin.o)
+                              ./gr_mruby/libmruby.a(math.o) (sin)
+./gr_common/lib//libm.a(lib_a-sf_tanh.o)
+                              ./gr_mruby/libmruby.a(math.o) (tanh)
+./gr_common/lib//libm.a(lib_a-sf_tan.o)
+                              ./gr_mruby/libmruby.a(math.o) (tan)
+./gr_common/lib//libm.a(lib_a-wf_acosh.o)
+                              ./gr_mruby/libmruby.a(math.o) (acosh)
+./gr_common/lib//libm.a(lib_a-wf_acos.o)
+                              ./gr_mruby/libmruby.a(math.o) (acos)
+./gr_common/lib//libm.a(lib_a-wf_asin.o)
+                              ./gr_mruby/libmruby.a(math.o) (asin)
+./gr_common/lib//libm.a(lib_a-wf_atan2.o)
+                              ./gr_mruby/libmruby.a(math.o) (atan2)
+./gr_common/lib//libm.a(lib_a-wf_atanh.o)
+                              ./gr_mruby/libmruby.a(math.o) (atanh)
+./gr_common/lib//libm.a(lib_a-wf_cosh.o)
+                              ./gr_mruby/libmruby.a(math.o) (cosh)
+./gr_common/lib//libm.a(lib_a-wf_exp.o)
+                              ./gr_mruby/libmruby.a(math.o) (exp)
+./gr_common/lib//libm.a(lib_a-wf_fmod.o)
+                              ./gr_mruby/libmruby.a(numeric.o) (fmodf)
+./gr_common/lib//libm.a(lib_a-wf_hypot.o)
+                              ./gr_mruby/libmruby.a(math.o) (hypot)
+./gr_common/lib//libm.a(lib_a-wf_log10.o)
+                              ./gr_mruby/libmruby.a(numeric.o) (log10)
+./gr_common/lib//libm.a(lib_a-wf_log.o)
+                              ./gr_mruby/libmruby.a(math.o) (log)
+./gr_common/lib//libm.a(lib_a-wf_pow.o)
+                              ./gr_mruby/libmruby.a(numeric.o) (pow)
+./gr_common/lib//libm.a(lib_a-wf_sinh.o)
+                              ./gr_mruby/libmruby.a(math.o) (sinh)
+./gr_common/lib//libm.a(lib_a-wf_sqrt.o)
+                              ./gr_mruby/libmruby.a(math.o) (sqrt)
+./gr_common/lib//libm.a(lib_a-ef_acosh.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_acosh.o) (__ieee754_acoshf)
+./gr_common/lib//libm.a(lib_a-ef_acos.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_acos.o) (__ieee754_acosf)
+./gr_common/lib//libm.a(lib_a-ef_asin.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_asin.o) (__ieee754_asinf)
+./gr_common/lib//libm.a(lib_a-ef_atan2.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_atan2.o) (__ieee754_atan2f)
+./gr_common/lib//libm.a(lib_a-ef_atanh.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_atanh.o) (__ieee754_atanhf)
+./gr_common/lib//libm.a(lib_a-ef_cosh.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_cosh.o) (__ieee754_coshf)
+./gr_common/lib//libm.a(lib_a-ef_exp.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_erf.o) (__ieee754_expf)
+./gr_common/lib//libm.a(lib_a-ef_fmod.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_fmod.o) (__ieee754_fmodf)
+./gr_common/lib//libm.a(lib_a-ef_hypot.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_hypot.o) (__ieee754_hypotf)
+./gr_common/lib//libm.a(lib_a-ef_log10.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_log10.o) (__ieee754_log10f)
+./gr_common/lib//libm.a(lib_a-ef_log.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_asinh.o) (__ieee754_logf)
+./gr_common/lib//libm.a(lib_a-ef_pow.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_pow.o) (__ieee754_powf)
+./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_cos.o) (__ieee754_rem_pio2f)
+./gr_common/lib//libm.a(lib_a-ef_sinh.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_sinh.o) (__ieee754_sinhf)
+./gr_common/lib//libm.a(lib_a-ef_sqrt.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_asinh.o) (__ieee754_sqrtf)
+./gr_common/lib//libm.a(lib_a-kf_cos.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_cos.o) (__kernel_cosf)
+./gr_common/lib//libm.a(lib_a-kf_rem_pio2.o)
+                              ./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+./gr_common/lib//libm.a(lib_a-kf_sin.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_cos.o) (__kernel_sinf)
+./gr_common/lib//libm.a(lib_a-kf_tan.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_tan.o) (__kernel_tanf)
+./gr_common/lib//libm.a(lib_a-sf_expm1.o)
+                              ./gr_common/lib//libm.a(lib_a-sf_tanh.o) (expm1f)
+./gr_common/lib//libm.a(lib_a-sf_rint.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_pow.o) (rint)
+./gr_common/lib//libm.a(lib_a-s_lib_ver.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_acosh.o) (__fdlib_version)
+./gr_common/lib//libm.a(lib_a-s_matherr.o)
+                              ./gr_common/lib//libm.a(lib_a-wf_acosh.o) (matherr)
+
+Allocating common symbols
+Common symbol       size              file
+
+sci_default         0x21c             ./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+user_rx_func        0x4               ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+sci_handles         0x18              ./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+ifunc               0x20              ./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+__hexdig            0x100             ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+errno               0x4               ./gr_common/lib//libc.a(lib_a-reent.o)
+psci_default        0x4               ./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./gr_common/gstart.o
+LOAD ./sample.o
+LOAD ./gr_sketch.o
+LOAD ./gr_common/intvect.o
+LOAD ./gr_common/lowlevel.o
+LOAD ./gr_common/lib/libc.a
+LOAD ./gr_common/lib/libg.a
+LOAD ./gr_common/lib/libgcc.a
+LOAD ./gr_common/lib/libm.a
+LOAD ./gr_common/lib/librxduino.a
+LOAD ./gr_common/lib/libsim.a
+LOAD ./gr_common/lib/libstdc++.a
+LOAD ./gr_common/lib/libsupc++.a
+LOAD ./gr_common/lib/libtkdnhal.a
+LOAD ./gr_mruby/libmruby.a
+LOAD ./gr_common/lib//librxduino.a
+LOAD ./gr_common/lib//libstdc++.a
+LOAD ./gr_common/lib//libsupc++.a
+LOAD ./gr_common/lib//libc.a
+LOAD ./gr_common/lib//libsim.a
+LOAD ./gr_common/lib//libgcc.a
+LOAD ./gr_common/lib//libm.a
+LOAD ./gr_common/lib//libtkdnhal.a
+
+.text           0xfff00000    0x239e8
+ ./gr_common/gstart.o(P)
+ P              0xfff00000       0x90 ./gr_common/gstart.o
+                0xfff00000                start
+                0xfff00000                PowerON_Reset_PC
+                0xfff0008e                _rx_fini
+                0xfff0008f                __cxa_atexit
+ *(.text)
+ .text          0xfff00090        0xf ./gr_common/lib//libc.a(lib_a-memchr.o)
+                0xfff00090                memchr
+ .text          0xfff0009f        0x7 ./gr_common/lib//libc.a(lib_a-memcpy.o)
+                0xfff0009f                memcpy
+ .text          0xfff000a6        0x7 ./gr_common/lib//libc.a(lib_a-memset.o)
+                0xfff000a6                memset
+ .text          0xfff000ad       0x10 ./gr_common/lib//libc.a(lib_a-strlen.o)
+                0xfff000ad                strlen
+ .text          0xfff000bd       0x17 ./gr_common/lib//libc.a(lib_a-memmove.o)
+                0xfff000bd                memmove
+ .text          0xfff000d4        0xf ./gr_common/lib//libc.a(lib_a-strcmp.o)
+                0xfff000d4                strcmp
+ .text          0xfff000e3        0xc ./gr_common/lib//libc.a(lib_a-strncmp.o)
+                0xfff000e3                strncmp
+ *(.text.*)
+ .text.__errno  0xfff000ef        0x9 ./gr_common/lib/libc.a(lib_a-errno.o)
+                0xfff000ef                __errno
+ .text.startup  0xfff000f8       0x20 ./gr_common/lib/librxduino.a(rxduino.o)
+                0xfff000f8                main
+ .text.unlikely
+                0xfff00118       0xaa ./gr_mruby/libmruby.a(vm.o)
+ .text.abort    0xfff001c2        0xc ./gr_common/lib//libc.a(lib_a-abort.o)
+                0xfff001c2                abort
+ .text.exit     0xfff001ce       0x20 ./gr_common/lib//libc.a(lib_a-exit.o)
+                0xfff001ce                exit
+ .text._fread_r
+                0xfff001ee       0xa6 ./gr_common/lib//libc.a(lib_a-fread.o)
+                0xfff001ee                _fread_r
+ .text.fread    0xfff00294       0x1e ./gr_common/lib//libc.a(lib_a-fread.o)
+                0xfff00294                fread
+ .text._fseek_r
+                0xfff002b2      0x27c ./gr_common/lib//libc.a(lib_a-fseek.o)
+                0xfff002b2                _fseek_r
+ .text.fseek    0xfff0052e       0x16 ./gr_common/lib//libc.a(lib_a-fseek.o)
+                0xfff0052e                fseek
+ .text._fstat_r
+                0xfff00544       0x24 ./gr_common/lib//libc.a(lib_a-fstatr.o)
+                0xfff00544                _fstat_r
+ .text._ftell_r
+                0xfff00568       0x7e ./gr_common/lib//libc.a(lib_a-ftell.o)
+                0xfff00568                _ftell_r
+ .text.ftell    0xfff005e6        0xe ./gr_common/lib//libc.a(lib_a-ftell.o)
+                0xfff005e6                ftell
+ .text._fwrite_r
+                0xfff005f4       0x64 ./gr_common/lib//libc.a(lib_a-fwrite.o)
+                0xfff005f4                _fwrite_r
+ .text.fwrite   0xfff00658       0x1e ./gr_common/lib//libc.a(lib_a-fwrite.o)
+                0xfff00658                fwrite
+ .text.__smakebuf_r
+                0xfff00676       0xd6 ./gr_common/lib//libc.a(lib_a-makebuf.o)
+                0xfff00676                __smakebuf_r
+ .text.malloc   0xfff0074c        0xe ./gr_common/lib//libc.a(lib_a-malloc.o)
+                0xfff0074c                malloc
+ .text.free     0xfff0075a        0xe ./gr_common/lib//libc.a(lib_a-malloc.o)
+                0xfff0075a                free
+ .text._malloc_r
+                0xfff00768      0x490 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+                0xfff00768                _malloc_r
+ .text.__malloc_lock
+                0xfff00bf8        0x1 ./gr_common/lib//libc.a(lib_a-mlock.o)
+                0xfff00bf8                __malloc_lock
+ .text.__malloc_unlock
+                0xfff00bf9        0x1 ./gr_common/lib//libc.a(lib_a-mlock.o)
+                0xfff00bf9                __malloc_unlock
+ .text._printf_r
+                0xfff00bfa       0x11 ./gr_common/lib//libc.a(lib_a-printf.o)
+                0xfff00bfa                _printf_r
+ .text.printf   0xfff00c0b       0x19 ./gr_common/lib//libc.a(lib_a-printf.o)
+                0xfff00c0b                printf
+ .text.realloc  0xfff00c24       0x12 ./gr_common/lib//libc.a(lib_a-realloc.o)
+                0xfff00c24                realloc
+ .text._realloc_r
+                0xfff00c36      0x378 ./gr_common/lib//libc.a(lib_a-reallocr.o)
+                0xfff00c36                _realloc_r
+ .text.cleanup_glue
+                0xfff00fae       0x1a ./gr_common/lib//libc.a(lib_a-reent.o)
+                0xfff00fae                cleanup_glue
+ .text._reclaim_reent
+                0xfff00fc8       0xa0 ./gr_common/lib//libc.a(lib_a-reent.o)
+                0xfff00fc8                _reclaim_reent
+ .text._wrapup_reent
+                0xfff01068       0x40 ./gr_common/lib//libc.a(lib_a-reent.o)
+                0xfff01068                _wrapup_reent
+ .text.lflush   0xfff010a8        0xf ./gr_common/lib//libc.a(lib_a-refill.o)
+ *fill*         0xfff010b7        0x1 00
+ .text.__srefill_r
+                0xfff010b8      0x118 ./gr_common/lib//libc.a(lib_a-refill.o)
+                0xfff010b8                __srefill_r
+ .text._sbrk_r  0xfff011d0       0x22 ./gr_common/lib//libc.a(lib_a-sbrkr.o)
+                0xfff011d0                _sbrk_r
+ .text.__fpclassifyf
+                0xfff011f2       0x5c ./gr_common/lib//libc.a(lib_a-sf_fpclassify.o)
+                0xfff011f2                __fpclassifyf
+ .text.frexpf   0xfff0124e       0x4e ./gr_common/lib//libc.a(lib_a-sf_frexp.o)
+                0xfff0124e                frexpf
+ .text.frexp    0xfff0129c        0x4 ./gr_common/lib//libc.a(lib_a-sf_frexp.o)
+                0xfff0129c                frexp
+ .text.ldexpf   0xfff012a0       0x42 ./gr_common/lib//libc.a(lib_a-sf_ldexp.o)
+                0xfff012a0                ldexpf
+ .text.ldexp    0xfff012e2        0x4 ./gr_common/lib//libc.a(lib_a-sf_ldexp.o)
+                0xfff012e2                ldexp
+ .text.scalbnf  0xfff012e6       0xc0 ./gr_common/lib//libc.a(lib_a-sf_scalbn.o)
+                0xfff012e6                scalbnf
+ .text.scalbn   0xfff013a6        0x4 ./gr_common/lib//libc.a(lib_a-sf_scalbn.o)
+                0xfff013a6                scalbn
+ .text._init_signal_r
+                0xfff013aa       0x34 ./gr_common/lib//libc.a(lib_a-signal.o)
+                0xfff013aa                _init_signal_r
+ .text._signal_r
+                0xfff013de       0x32 ./gr_common/lib//libc.a(lib_a-signal.o)
+                0xfff013de                _signal_r
+ .text._raise_r
+                0xfff01410       0x54 ./gr_common/lib//libc.a(lib_a-signal.o)
+                0xfff01410                _raise_r
+ .text.__sigtramp_r
+                0xfff01464       0x4c ./gr_common/lib//libc.a(lib_a-signal.o)
+                0xfff01464                __sigtramp_r
+ .text.raise    0xfff014b0        0xe ./gr_common/lib//libc.a(lib_a-signal.o)
+                0xfff014b0                raise
+ .text.signal   0xfff014be       0x12 ./gr_common/lib//libc.a(lib_a-signal.o)
+                0xfff014be                signal
+ .text._init_signal
+                0xfff014d0        0xc ./gr_common/lib//libc.a(lib_a-signal.o)
+                0xfff014d0                _init_signal
+ .text.__sigtramp
+                0xfff014dc        0xe ./gr_common/lib//libc.a(lib_a-signal.o)
+                0xfff014dc                __sigtramp
+ .text._kill_r  0xfff014ea       0x24 ./gr_common/lib//libc.a(lib_a-signalr.o)
+                0xfff014ea                _kill_r
+ .text._getpid_r
+                0xfff0150e        0x4 ./gr_common/lib//libc.a(lib_a-signalr.o)
+                0xfff0150e                _getpid_r
+ .text.__sread  0xfff01512       0x26 ./gr_common/lib//libc.a(lib_a-stdio.o)
+                0xfff01512                __sread
+ .text.__seofread
+                0xfff01538        0x3 ./gr_common/lib//libc.a(lib_a-stdio.o)
+                0xfff01538                __seofread
+ *fill*         0xfff0153b        0x1 00
+ .text.__swrite
+                0xfff0153c       0x36 ./gr_common/lib//libc.a(lib_a-stdio.o)
+                0xfff0153c                __swrite
+ .text.__sseek  0xfff01572       0x28 ./gr_common/lib//libc.a(lib_a-stdio.o)
+                0xfff01572                __sseek
+ .text.__sclose
+                0xfff0159a        0x6 ./gr_common/lib//libc.a(lib_a-stdio.o)
+                0xfff0159a                __sclose
+ .text.match    0xfff015a0       0x2c ./gr_common/lib//libc.a(lib_a-strtod.o)
+ .text._strtod_r
+                0xfff015cc      0x8a8 ./gr_common/lib//libc.a(lib_a-strtod.o)
+                0xfff015cc                _strtod_r
+ .text.strtod   0xfff01e74       0x12 ./gr_common/lib//libc.a(lib_a-strtod.o)
+                0xfff01e74                strtod
+ .text.strtof   0xfff01e86       0x28 ./gr_common/lib//libc.a(lib_a-strtod.o)
+                0xfff01e86                strtof
+ .text._strtoul_r
+                0xfff01eae       0xde ./gr_common/lib//libc.a(lib_a-strtoul.o)
+                0xfff01eae                _strtoul_r
+ .text.strtoul  0xfff01f8c       0x16 ./gr_common/lib//libc.a(lib_a-strtoul.o)
+                0xfff01f8c                strtoul
+ .text._vfprintf_r
+                0xfff01fa2     0x1152 ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+                0xfff01fa2                _vfprintf_r
+ .text.vfprintf
+                0xfff030f4       0x16 ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+                0xfff030f4                vfprintf
+ .text._vsnprintf_r
+                0xfff0310a       0x50 ./gr_common/lib//libc.a(lib_a-vsnprintf.o)
+                0xfff0310a                _vsnprintf_r
+ .text.vsnprintf
+                0xfff0315a       0x1e ./gr_common/lib//libc.a(lib_a-vsnprintf.o)
+                0xfff0315a                vsnprintf
+ .text.__swbuf_r
+                0xfff03178       0xaa ./gr_common/lib//libc.a(lib_a-wbuf.o)
+                0xfff03178                __swbuf_r
+ .text.__swbuf  0xfff03222       0x12 ./gr_common/lib//libc.a(lib_a-wbuf.o)
+                0xfff03222                __swbuf
+ .text._write_r
+                0xfff03234       0x26 ./gr_common/lib//libc.a(lib_a-writer.o)
+                0xfff03234                _write_r
+ .text.__swsetup_r
+                0xfff0325a       0xce ./gr_common/lib//libc.a(lib_a-wsetup.o)
+                0xfff0325a                __swsetup_r
+ .text.__call_exitprocs
+                0xfff03328       0xc2 ./gr_common/lib//libc.a(lib_a-__call_atexit.o)
+                0xfff03328                __call_exitprocs
+ .text._close_r
+                0xfff033ea       0x22 ./gr_common/lib//libc.a(lib_a-closer.o)
+                0xfff033ea                _close_r
+ .text.quorem   0xfff0340c      0x11a ./gr_common/lib//libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0xfff03526      0x98c ./gr_common/lib//libc.a(lib_a-dtoa.o)
+                0xfff03526                _dtoa_r
+ .text.__sflush_r
+                0xfff03eb2      0x142 ./gr_common/lib//libc.a(lib_a-fflush.o)
+                0xfff03eb2                __sflush_r
+ .text._fflush_r
+                0xfff03ff4       0x2c ./gr_common/lib//libc.a(lib_a-fflush.o)
+                0xfff03ff4                _fflush_r
+ .text.fflush   0xfff04020       0x23 ./gr_common/lib//libc.a(lib_a-fflush.o)
+                0xfff04020                fflush
+ .text.__fp_lock
+                0xfff04043        0x3 ./gr_common/lib//libc.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0xfff04046        0x3 ./gr_common/lib//libc.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0xfff04049        0xa ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff04049                _cleanup_r
+ .text.std.isra.0
+                0xfff04053       0x49 ./gr_common/lib//libc.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0xfff0409c       0x2e ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff0409c                __sfmoreglue
+ .text._cleanup
+                0xfff040ca        0xc ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff040ca                _cleanup
+ .text.__sinit  0xfff040d6       0x46 ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff040d6                __sinit
+ .text.__sfp    0xfff0411c       0x8e ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff0411c                __sfp
+ .text.__sfp_lock_acquire
+                0xfff041aa        0x1 ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff041aa                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0xfff041ab        0x1 ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff041ab                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0xfff041ac        0x1 ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff041ac                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0xfff041ad        0x1 ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff041ad                __sinit_lock_release
+ .text.__fp_lock_all
+                0xfff041ae       0x12 ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff041ae                __fp_lock_all
+ .text.__fp_unlock_all
+                0xfff041c0       0x12 ./gr_common/lib//libc.a(lib_a-findfp.o)
+                0xfff041c0                __fp_unlock_all
+ .text._malloc_trim_r
+                0xfff041d2       0xa4 ./gr_common/lib//libc.a(lib_a-freer.o)
+                0xfff041d2                _malloc_trim_r
+ .text._free_r  0xfff04276      0x19e ./gr_common/lib//libc.a(lib_a-freer.o)
+                0xfff04276                _free_r
+ .text.__sfvwrite_r
+                0xfff04414      0x296 ./gr_common/lib//libc.a(lib_a-fvwrite.o)
+                0xfff04414                __sfvwrite_r
+ .text._fwalk   0xfff046aa       0x44 ./gr_common/lib//libc.a(lib_a-fwalk.o)
+                0xfff046aa                _fwalk
+ .text._fwalk_reent
+                0xfff046ee       0x48 ./gr_common/lib//libc.a(lib_a-fwalk.o)
+                0xfff046ee                _fwalk_reent
+ .text.L_shift  0xfff04736       0x24 ./gr_common/lib//libc.a(lib_a-gdtoa-hexnan.o)
+ .text.__hexnan
+                0xfff0475a      0x120 ./gr_common/lib//libc.a(lib_a-gdtoa-hexnan.o)
+                0xfff0475a                __hexnan
+ .text._isatty_r
+                0xfff0487a       0x22 ./gr_common/lib//libc.a(lib_a-isattyr.o)
+                0xfff0487a                _isatty_r
+ .text._setlocale_r
+                0xfff0489c       0x4a ./gr_common/lib//libc.a(lib_a-locale.o)
+                0xfff0489c                _setlocale_r
+ .text.__locale_charset
+                0xfff048e6        0x7 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0xfff048e6                __locale_charset
+ .text.__locale_mb_cur_max
+                0xfff048ed        0x9 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0xfff048ed                __locale_mb_cur_max
+ .text.__locale_msgcharset
+                0xfff048f6        0x7 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0xfff048f6                __locale_msgcharset
+ .text.__locale_cjk_lang
+                0xfff048fd        0x3 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0xfff048fd                __locale_cjk_lang
+ .text._localeconv_r
+                0xfff04900        0x7 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0xfff04900                _localeconv_r
+ .text.setlocale
+                0xfff04907       0x12 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0xfff04907                setlocale
+ .text.localeconv
+                0xfff04919        0x7 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0xfff04919                localeconv
+ .text._lseek_r
+                0xfff04920       0x26 ./gr_common/lib//libc.a(lib_a-lseekr.o)
+                0xfff04920                _lseek_r
+ .text._Balloc  0xfff04946       0x54 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04946                _Balloc
+ .text._Bfree   0xfff0499a       0x1a ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff0499a                _Bfree
+ .text.__multadd
+                0xfff049b4       0x7c ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff049b4                __multadd
+ .text.__s2b    0xfff04a30       0x80 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04a30                __s2b
+ .text.__hi0bits
+                0xfff04ab0       0x4a ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04ab0                __hi0bits
+ .text.__lo0bits
+                0xfff04afa       0x66 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04afa                __lo0bits
+ .text.__i2b    0xfff04b60       0x12 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04b60                __i2b
+ .text.__multiply
+                0xfff04b72      0x11a ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04b72                __multiply
+ .text.__pow5mult
+                0xfff04c8c       0x88 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04c8c                __pow5mult
+ .text.__lshift
+                0xfff04d14       0x9e ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04d14                __lshift
+ .text.__mcmp   0xfff04db2       0x2c ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04db2                __mcmp
+ .text.__mdiff  0xfff04dde       0xd4 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04dde                __mdiff
+ .text.__ulp    0xfff04eb2       0x27 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04eb2                __ulp
+ *fill*         0xfff04ed9        0x1 00
+ .text.__b2d    0xfff04eda       0x6a ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04eda                __b2d
+ .text.__d2b    0xfff04f44       0x6a ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04f44                __d2b
+ .text.__ratio  0xfff04fae       0x42 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04fae                __ratio
+ .text._mprec_log10
+                0xfff04ff0       0x24 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff04ff0                _mprec_log10
+ .text.__copybits
+                0xfff05014       0x32 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff05014                __copybits
+ .text.__any_on
+                0xfff05046       0x40 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff05046                __any_on
+ .text._read_r  0xfff05086       0x26 ./gr_common/lib//libc.a(lib_a-readr.o)
+                0xfff05086                _read_r
+ .text.copysignf
+                0xfff050ac        0xf ./gr_common/lib//libc.a(lib_a-sf_copysign.o)
+                0xfff050ac                copysignf
+ .text.copysign
+                0xfff050bb        0x4 ./gr_common/lib//libc.a(lib_a-sf_copysign.o)
+                0xfff050bb                copysign
+ .text.finitef  0xfff050bf       0x10 ./gr_common/lib//libc.a(lib_a-sf_finite.o)
+                0xfff050bf                finitef
+ .text.finite   0xfff050cf       0x10 ./gr_common/lib//libc.a(lib_a-sf_finite.o)
+                0xfff050cf                finite
+ .text.nanf     0xfff050df        0x7 ./gr_common/lib//libc.a(lib_a-sf_nan.o)
+                0xfff050df                nanf
+ .text.nan      0xfff050e6        0x7 ./gr_common/lib//libc.a(lib_a-sf_nan.o)
+                0xfff050e6                nan
+ *fill*         0xfff050ed        0x1 00
+ .text._svfprintf_r
+                0xfff050ee      0xfee ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+                0xfff050ee                _svfprintf_r
+ .text.__sprint_r
+                0xfff060dc       0x6c ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+                0xfff060dc                __sprint_r
+ .text._vfiprintf_r
+                0xfff06148      0x9e0 ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+                0xfff06148                _vfiprintf_r
+ .text.vfiprintf
+                0xfff06b28       0x16 ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+                0xfff06b28                vfiprintf
+ .text._calloc_r
+                0xfff06b3e       0x66 ./gr_common/lib//libc.a(lib_a-callocr.o)
+                0xfff06b3e                _calloc_r
+ .text._fclose_r
+                0xfff06ba4       0x8a ./gr_common/lib//libc.a(lib_a-fclose.o)
+                0xfff06ba4                _fclose_r
+ .text.fclose   0xfff06c2e        0xe ./gr_common/lib//libc.a(lib_a-fclose.o)
+                0xfff06c2e                fclose
+ .text._fputwc_r
+                0xfff06c3c       0xc6 ./gr_common/lib//libc.a(lib_a-fputwc.o)
+                0xfff06c3c                _fputwc_r
+ .text.fputwc   0xfff06d02       0x28 ./gr_common/lib//libc.a(lib_a-fputwc.o)
+                0xfff06d02                fputwc
+ .text.rshift   0xfff06d2a       0x70 ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+ .text.htinit.constprop.0
+                0xfff06d9a       0x1a ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+ .text.__hexdig_init
+                0xfff06db4       0x2d ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+                0xfff06db4                __hexdig_init
+ *fill*         0xfff06de1        0x1 00
+ .text.__gethex
+                0xfff06de2      0x47e ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+                0xfff06de2                __gethex
+ .text.__ssprint_r
+                0xfff07260       0xfe ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+                0xfff07260                __ssprint_r
+ .text._svfiprintf_r
+                0xfff0735e      0x8da ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+                0xfff0735e                _svfiprintf_r
+ .text._wcrtomb_r
+                0xfff07c38       0x4c ./gr_common/lib//libc.a(lib_a-wcrtomb.o)
+                0xfff07c38                _wcrtomb_r
+ .text.wcrtomb  0xfff07c84       0x16 ./gr_common/lib//libc.a(lib_a-wcrtomb.o)
+                0xfff07c84                wcrtomb
+ .text.__ascii_wctomb
+                0xfff07c9a       0x1c ./gr_common/lib//libc.a(lib_a-wctomb_r.o)
+                0xfff07c9a                __ascii_wctomb
+ .text._wctomb_r
+                0xfff07cb6       0x29 ./gr_common/lib//libc.a(lib_a-wctomb_r.o)
+                0xfff07cb6                _wctomb_r
+ *fill*         0xfff07cdf        0x1 00
+ .text.asinhf   0xfff07ce0       0xd6 ./gr_common/lib//libm.a(lib_a-sf_asinh.o)
+                0xfff07ce0                asinhf
+ .text.asinh    0xfff07db6        0x4 ./gr_common/lib//libm.a(lib_a-sf_asinh.o)
+                0xfff07db6                asinh
+ .text.atanf    0xfff07dba      0x190 ./gr_common/lib//libm.a(lib_a-sf_atan.o)
+                0xfff07dba                atanf
+ .text.atan     0xfff07f4a        0x4 ./gr_common/lib//libm.a(lib_a-sf_atan.o)
+                0xfff07f4a                atan
+ .text.cbrtf    0xfff07f4e       0x82 ./gr_common/lib//libm.a(lib_a-sf_cbrt.o)
+                0xfff07f4e                cbrtf
+ .text.cbrt     0xfff07fd0        0x4 ./gr_common/lib//libm.a(lib_a-sf_cbrt.o)
+                0xfff07fd0                cbrt
+ .text.ceilf    0xfff07fd4       0x7c ./gr_common/lib//libm.a(lib_a-sf_ceil.o)
+                0xfff07fd4                ceilf
+ .text.ceil     0xfff08050        0x4 ./gr_common/lib//libm.a(lib_a-sf_ceil.o)
+                0xfff08050                ceil
+ .text.cosf     0xfff08054       0x5c ./gr_common/lib//libm.a(lib_a-sf_cos.o)
+                0xfff08054                cosf
+ .text.cos      0xfff080b0        0x4 ./gr_common/lib//libm.a(lib_a-sf_cos.o)
+                0xfff080b0                cos
+ .text.erff     0xfff080b4      0x362 ./gr_common/lib//libm.a(lib_a-sf_erf.o)
+                0xfff080b4                erff
+ .text.erfcf    0xfff08416      0x37e ./gr_common/lib//libm.a(lib_a-sf_erf.o)
+                0xfff08416                erfcf
+ .text.erf      0xfff08794        0x4 ./gr_common/lib//libm.a(lib_a-sf_erf.o)
+                0xfff08794                erf
+ .text.erfc     0xfff08798        0x4 ./gr_common/lib//libm.a(lib_a-sf_erf.o)
+                0xfff08798                erfc
+ .text.fabsf    0xfff0879c        0x7 ./gr_common/lib//libm.a(lib_a-sf_fabs.o)
+                0xfff0879c                fabsf
+ .text.fabs     0xfff087a3        0x7 ./gr_common/lib//libm.a(lib_a-sf_fabs.o)
+                0xfff087a3                fabs
+ .text.floorf   0xfff087aa       0x78 ./gr_common/lib//libm.a(lib_a-sf_floor.o)
+                0xfff087aa                floorf
+ .text.floor    0xfff08822        0x4 ./gr_common/lib//libm.a(lib_a-sf_floor.o)
+                0xfff08822                floor
+ .text.log1pf   0xfff08826      0x226 ./gr_common/lib//libm.a(lib_a-sf_log1p.o)
+                0xfff08826                log1pf
+ .text.log1p    0xfff08a4c        0x4 ./gr_common/lib//libm.a(lib_a-sf_log1p.o)
+                0xfff08a4c                log1p
+ .text.sinf     0xfff08a50       0x62 ./gr_common/lib//libm.a(lib_a-sf_sin.o)
+                0xfff08a50                sinf
+ .text.sin      0xfff08ab2        0x4 ./gr_common/lib//libm.a(lib_a-sf_sin.o)
+                0xfff08ab2                sin
+ .text.tanhf    0xfff08ab6       0xbc ./gr_common/lib//libm.a(lib_a-sf_tanh.o)
+                0xfff08ab6                tanhf
+ .text.tanh     0xfff08b72        0x4 ./gr_common/lib//libm.a(lib_a-sf_tanh.o)
+                0xfff08b72                tanh
+ .text.tanf     0xfff08b76       0x40 ./gr_common/lib//libm.a(lib_a-sf_tan.o)
+                0xfff08b76                tanf
+ .text.tan      0xfff08bb6        0x4 ./gr_common/lib//libm.a(lib_a-sf_tan.o)
+                0xfff08bb6                tan
+ .text.acoshf   0xfff08bba       0x76 ./gr_common/lib//libm.a(lib_a-wf_acosh.o)
+                0xfff08bba                acoshf
+ .text.acosh    0xfff08c30        0x4 ./gr_common/lib//libm.a(lib_a-wf_acosh.o)
+                0xfff08c30                acosh
+ .text.acosf    0xfff08c34       0x82 ./gr_common/lib//libm.a(lib_a-wf_acos.o)
+                0xfff08c34                acosf
+ .text.acos     0xfff08cb6        0x4 ./gr_common/lib//libm.a(lib_a-wf_acos.o)
+                0xfff08cb6                acos
+ .text.asinf    0xfff08cba       0x82 ./gr_common/lib//libm.a(lib_a-wf_asin.o)
+                0xfff08cba                asinf
+ .text.asin     0xfff08d3c        0x4 ./gr_common/lib//libm.a(lib_a-wf_asin.o)
+                0xfff08d3c                asin
+ .text.atan2f   0xfff08d40        0x4 ./gr_common/lib//libm.a(lib_a-wf_atan2.o)
+                0xfff08d40                atan2f
+ .text.atan2    0xfff08d44        0x4 ./gr_common/lib//libm.a(lib_a-wf_atan2.o)
+                0xfff08d44                atan2
+ .text.atanhf   0xfff08d48       0xa0 ./gr_common/lib//libm.a(lib_a-wf_atanh.o)
+                0xfff08d48                atanhf
+ .text.atanh    0xfff08de8        0x4 ./gr_common/lib//libm.a(lib_a-wf_atanh.o)
+                0xfff08de8                atanh
+ .text.coshf    0xfff08dec       0x8a ./gr_common/lib//libm.a(lib_a-wf_cosh.o)
+                0xfff08dec                coshf
+ .text.cosh     0xfff08e76        0x4 ./gr_common/lib//libm.a(lib_a-wf_cosh.o)
+                0xfff08e76                cosh
+ .text.expf     0xfff08e7a       0xa6 ./gr_common/lib//libm.a(lib_a-wf_exp.o)
+                0xfff08e7a                expf
+ .text.exp      0xfff08f20        0x4 ./gr_common/lib//libm.a(lib_a-wf_exp.o)
+                0xfff08f20                exp
+ .text.fmodf    0xfff08f24       0x8c ./gr_common/lib//libm.a(lib_a-wf_fmod.o)
+                0xfff08f24                fmodf
+ .text.fmod     0xfff08fb0        0x4 ./gr_common/lib//libm.a(lib_a-wf_fmod.o)
+                0xfff08fb0                fmod
+ .text.hypotf   0xfff08fb4       0x8e ./gr_common/lib//libm.a(lib_a-wf_hypot.o)
+                0xfff08fb4                hypotf
+ .text.hypot    0xfff09042        0x4 ./gr_common/lib//libm.a(lib_a-wf_hypot.o)
+                0xfff09042                hypot
+ .text.log10f   0xfff09046       0xb4 ./gr_common/lib//libm.a(lib_a-wf_log10.o)
+                0xfff09046                log10f
+ .text.log10    0xfff090fa        0x4 ./gr_common/lib//libm.a(lib_a-wf_log10.o)
+                0xfff090fa                log10
+ .text.logf     0xfff090fe       0xb4 ./gr_common/lib//libm.a(lib_a-wf_log.o)
+                0xfff090fe                logf
+ .text.log      0xfff091b2        0x4 ./gr_common/lib//libm.a(lib_a-wf_log.o)
+                0xfff091b2                log
+ .text.powf     0xfff091b6      0x214 ./gr_common/lib//libm.a(lib_a-wf_pow.o)
+                0xfff091b6                powf
+ .text.pow      0xfff093ca        0x4 ./gr_common/lib//libm.a(lib_a-wf_pow.o)
+                0xfff093ca                pow
+ .text.sinhf    0xfff093ce       0xa2 ./gr_common/lib//libm.a(lib_a-wf_sinh.o)
+                0xfff093ce                sinhf
+ .text.sinh     0xfff09470        0x4 ./gr_common/lib//libm.a(lib_a-wf_sinh.o)
+                0xfff09470                sinh
+ .text.sqrtf    0xfff09474       0x7e ./gr_common/lib//libm.a(lib_a-wf_sqrt.o)
+                0xfff09474                sqrtf
+ .text.sqrt     0xfff094f2        0x4 ./gr_common/lib//libm.a(lib_a-wf_sqrt.o)
+                0xfff094f2                sqrt
+ .text.__ieee754_acoshf
+                0xfff094f6       0x96 ./gr_common/lib//libm.a(lib_a-ef_acosh.o)
+                0xfff094f6                __ieee754_acoshf
+ .text.__ieee754_acosf
+                0xfff0958c      0x22a ./gr_common/lib//libm.a(lib_a-ef_acos.o)
+                0xfff0958c                __ieee754_acosf
+ .text.__ieee754_asinf
+                0xfff097b6      0x1d4 ./gr_common/lib//libm.a(lib_a-ef_asin.o)
+                0xfff097b6                __ieee754_asinf
+ .text.__ieee754_atan2f
+                0xfff0998a      0x14c ./gr_common/lib//libm.a(lib_a-ef_atan2.o)
+                0xfff0998a                __ieee754_atan2f
+ .text.__ieee754_atanhf
+                0xfff09ad6       0x80 ./gr_common/lib//libm.a(lib_a-ef_atanh.o)
+                0xfff09ad6                __ieee754_atanhf
+ .text.__ieee754_coshf
+                0xfff09b56       0xc8 ./gr_common/lib//libm.a(lib_a-ef_cosh.o)
+                0xfff09b56                __ieee754_coshf
+ .text.__ieee754_expf
+                0xfff09c1e      0x176 ./gr_common/lib//libm.a(lib_a-ef_exp.o)
+                0xfff09c1e                __ieee754_expf
+ .text.__ieee754_fmodf
+                0xfff09d94      0x10e ./gr_common/lib//libm.a(lib_a-ef_fmod.o)
+                0xfff09d94                __ieee754_fmodf
+ .text.__ieee754_hypotf
+                0xfff09ea2      0x126 ./gr_common/lib//libm.a(lib_a-ef_hypot.o)
+                0xfff09ea2                __ieee754_hypotf
+ .text.__ieee754_log10f
+                0xfff09fc8       0x94 ./gr_common/lib//libm.a(lib_a-ef_log10.o)
+                0xfff09fc8                __ieee754_log10f
+ .text.__ieee754_logf
+                0xfff0a05c      0x1e4 ./gr_common/lib//libm.a(lib_a-ef_log.o)
+                0xfff0a05c                __ieee754_logf
+ .text.__ieee754_powf
+                0xfff0a240      0x4e8 ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+                0xfff0a240                __ieee754_powf
+ .text.__ieee754_rem_pio2f
+                0xfff0a728      0x254 ./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o)
+                0xfff0a728                __ieee754_rem_pio2f
+ .text.__ieee754_sinhf
+                0xfff0a97c       0xdc ./gr_common/lib//libm.a(lib_a-ef_sinh.o)
+                0xfff0a97c                __ieee754_sinhf
+ .text.__ieee754_sqrtf
+                0xfff0aa58       0xa4 ./gr_common/lib//libm.a(lib_a-ef_sqrt.o)
+                0xfff0aa58                __ieee754_sqrtf
+ .text.__kernel_cosf
+                0xfff0aafc       0xc0 ./gr_common/lib//libm.a(lib_a-kf_cos.o)
+                0xfff0aafc                __kernel_cosf
+ .text.__kernel_rem_pio2f
+                0xfff0abbc      0x4ec ./gr_common/lib//libm.a(lib_a-kf_rem_pio2.o)
+                0xfff0abbc                __kernel_rem_pio2f
+ .text.__kernel_sinf
+                0xfff0b0a8       0x8a ./gr_common/lib//libm.a(lib_a-kf_sin.o)
+                0xfff0b0a8                __kernel_sinf
+ .text.__kernel_tanf
+                0xfff0b132      0x18e ./gr_common/lib//libm.a(lib_a-kf_tan.o)
+                0xfff0b132                __kernel_tanf
+ .text.expm1f   0xfff0b2c0      0x21c ./gr_common/lib//libm.a(lib_a-sf_expm1.o)
+                0xfff0b2c0                expm1f
+ .text.expm1    0xfff0b4dc        0x4 ./gr_common/lib//libm.a(lib_a-sf_expm1.o)
+                0xfff0b4dc                expm1
+ .text.rintf    0xfff0b4e0       0xa2 ./gr_common/lib//libm.a(lib_a-sf_rint.o)
+                0xfff0b4e0                rintf
+ .text.rint     0xfff0b582        0x4 ./gr_common/lib//libm.a(lib_a-sf_rint.o)
+                0xfff0b582                rint
+ .text.matherr  0xfff0b586        0x3 ./gr_common/lib//libm.a(lib_a-s_matherr.o)
+                0xfff0b586                matherr
+ *(P)
+ P              0xfff0b589        0x0 ./sample.o
+ P              0xfff0b589       0x7d ./gr_sketch.o
+                0xfff0b589                cdigitalWrite(mrb_state*, mrb_value)
+                0xfff0b5b3                setup
+                0xfff0b605                loop
+ P              0xfff0b606      0x16a ./gr_common/intvect.o
+                0xfff0b606                Excep_SuperVisorInst
+                0xfff0b608                Excep_UndefinedInst
+                0xfff0b60a                Excep_FloatingPoint
+                0xfff0b60c                NonMaskableInterrupt
+                0xfff0b60e                Excep_BRK
+                0xfff0b610                Excep_FCUIF_FIFEERR
+                0xfff0b612                Excep_FCUIF_FRDYI
+                0xfff0b614                Excep_ICU_SWINT
+                0xfff0b616                Excep_USB0_D0FIFO0
+                0xfff0b618                Excep_USB0_D1FIFO0
+                0xfff0b61a                Excep_USB0_USBI0
+                0xfff0b642                Excep_USB1_D0FIFO1
+                0xfff0b644                Excep_USB1_D1FIFO1
+                0xfff0b646                Excep_USB1_USBI1
+                0xfff0b66e                Excep_RSPI0_SPRI0
+                0xfff0b670                Excep_RSPI0_SPTI0
+                0xfff0b672                Excep_RSPI0_SPII0
+                0xfff0b674                Excep_RSPI1_SPRI1
+                0xfff0b676                Excep_RSPI1_SPTI1
+                0xfff0b678                Excep_RSPI1_SPII1
+                0xfff0b67a                Excep_RSPI2_SPRI2
+                0xfff0b67c                Excep_RSPI2_SPTI2
+                0xfff0b67e                Excep_RSPI2_SPII2
+                0xfff0b680                Excep_CAN0_RXF0
+                0xfff0b682                Excep_CAN0_TXF0
+                0xfff0b684                Excep_CAN0_RXM0
+                0xfff0b686                Excep_CAN0_TXM0
+                0xfff0b688                Excep_CAN1_RXF1
+                0xfff0b68a                Excep_CAN1_TXF1
+                0xfff0b68c                Excep_CAN1_RXM1
+                0xfff0b68e                Excep_CAN1_TXM1
+                0xfff0b690                Excep_RTC_CUP
+                0xfff0b692                Excep_IRQ8
+                0xfff0b694                Excep_IRQ9
+                0xfff0b696                Excep_IRQ10
+                0xfff0b698                Excep_IRQ11
+                0xfff0b69a                Excep_IRQ12
+                0xfff0b69c                Excep_IRQ13
+                0xfff0b69e                Excep_IRQ14
+                0xfff0b6a0                Excep_IRQ15
+                0xfff0b6a2                Excep_USB_USBR0
+                0xfff0b6a4                Excep_USB_USBR1
+                0xfff0b6a6                Excep_RTC_ALM
+                0xfff0b6a8                Excep_ADA0_ADI0
+                0xfff0b6aa                Excep_S12AD0_S12ADI0
+                0xfff0b6ac                Excep_GROUP_E0
+                0xfff0b6ae                Excep_GROUP_E1
+                0xfff0b6b0                Excep_GROUP_E2
+                0xfff0b6b2                Excep_GROUP_E3
+                0xfff0b6b4                Excep_GROUP_E4
+                0xfff0b6b6                Excep_GROUP_E5
+                0xfff0b6b8                Excep_GROUP_E6
+                0xfff0b6ba                Excep_GROUP_L0
+                0xfff0b6bc                Excep_SCIX_SCIX0
+                0xfff0b6be                Excep_SCIX_SCIX1
+                0xfff0b6c0                Excep_SCIX_SCIX2
+                0xfff0b6c2                Excep_SCIX_SCIX3
+                0xfff0b6c4                Excep_TPU10_TGIV10
+                0xfff0b6c6                Excep_TPU11_TGIA11
+                0xfff0b6c8                Excep_TPU11_TGIB11
+                0xfff0b6ca                Excep_POE2_OEI1
+                0xfff0b6cc                Excep_POE2_OEI2
+                0xfff0b6ce                Excep_TMR0_CMIB0
+                0xfff0b6d0                Excep_TMR0_OVI0
+                0xfff0b6d2                Excep_TMR1_CMIA1
+                0xfff0b6d4                Excep_TMR1_CMIB1
+                0xfff0b6d6                Excep_TMR1_OVI1
+                0xfff0b6d8                Excep_TMR2_CMIA2
+                0xfff0b6da                Excep_TMR2_CMIB2
+                0xfff0b6dc                Excep_TMR2_OVI2
+                0xfff0b6de                Excep_TMR3_CMIA3
+                0xfff0b6e0                Excep_TMR3_CMIB3
+                0xfff0b6e2                Excep_TMR3_OVI3
+                0xfff0b6e4                Excep_RIIC0_EEI0
+                0xfff0b6e6                Excep_RIIC0_RXI0
+                0xfff0b6e8                Excep_RIIC0_TXI0
+                0xfff0b6ea                Excep_RIIC0_TEI0
+                0xfff0b6ec                Excep_RIIC1_EEI0
+                0xfff0b6ee                Excep_RIIC1_RXI0
+                0xfff0b6f0                Excep_RIIC1_TXI0
+                0xfff0b6f2                Excep_RIIC1_TEI0
+                0xfff0b6f4                Excep_RIIC2_EEI0
+                0xfff0b6f6                Excep_RIIC2_RXI0
+                0xfff0b6f8                Excep_RIIC2_TXI0
+                0xfff0b6fa                Excep_RIIC2_TEI0
+                0xfff0b6fc                Excep_RIIC3_EEI0
+                0xfff0b6fe                Excep_RIIC3_RXI0
+                0xfff0b700                Excep_RIIC3_TXI0
+                0xfff0b702                Excep_RIIC3_TEI0
+                0xfff0b704                Excep_DMACA_DMAC0
+                0xfff0b706                Excep_DMACA_DMAC1
+                0xfff0b708                Excep_DMACA_DMAC2
+                0xfff0b70a                Excep_DMACA_DMAC3
+                0xfff0b70c                Excep_EXDMAC_DMAC0
+                0xfff0b70e                Excep_EXDMAC_DMAC1
+                0xfff0b710                Excep_SCI3_RXI3
+                0xfff0b712                Excep_SCI3_TXI3
+                0xfff0b714                Excep_SCI3_TEI3
+                0xfff0b716                Excep_SCI4_RXI4
+                0xfff0b718                Excep_SCI4_TXI4
+                0xfff0b71a                Excep_SCI4_TEI4
+                0xfff0b71c                Excep_SCI5_RXI5
+                0xfff0b71e                Excep_SCI5_TXI5
+                0xfff0b720                Excep_SCI5_TEI5
+                0xfff0b722                Excep_SCI7_RXI7
+                0xfff0b724                Excep_SCI7_TXI7
+                0xfff0b726                Excep_SCI7_TEI7
+                0xfff0b728                Excep_SCI8_RXI8
+                0xfff0b72a                Excep_SCI8_TXI8
+                0xfff0b72c                Excep_SCI8_TEI8
+                0xfff0b72e                Excep_SCI9_RXI9
+                0xfff0b730                Excep_SCI9_TXI9
+                0xfff0b732                Excep_SCI9_TEI9
+                0xfff0b734                Excep_SCI10_RXI10
+                0xfff0b736                Excep_SCI10_TXI10
+                0xfff0b738                Excep_SCI10_TEI10
+                0xfff0b73a                Excep_SCI11_RXI11
+                0xfff0b73c                Excep_SCI11_TXI11
+                0xfff0b73e                Excep_SCI11_TEI11
+                0xfff0b740                Excep_SCI12_RXI12
+                0xfff0b742                Excep_SCI12_TXI12
+                0xfff0b744                Excep_SCI12_TEI12
+                0xfff0b746                Excep_IEBUS_IEBINT
+                0xfff0b748                Dummy
+                0xfff0b74a                UserTMR0InterruptFunction
+                0xfff0b74b                Excep_TMR0_CMIA0
+                0xfff0b76d                Excep_BUSERR
+                0xfff0b76f                Excep_RTC_SLEEP
+ P              0xfff0b770      0x130 ./gr_common/lowlevel.o
+                0xfff0b770                sbrk
+                0xfff0b770                _sbrk
+                0xfff0b77f                open
+                0xfff0b782                read
+                0xfff0b808                write
+                0xfff0b861                lseek
+                0xfff0b864                isatty
+                0xfff0b867                fstat
+                0xfff0b89a                close
+ P              0xfff0b8a0        0x0 ./gr_common/lib/libc.a(lib_a-errno.o)
+ P              0xfff0b8a0        0x0 ./gr_common/lib/libc.a(lib_a-impure.o)
+ P              0xfff0b8a0       0x98 ./gr_common/lib/librxduino.a(digitalio.o)
+                0xfff0b8a0                pinMode
+                0xfff0b8c3                digitalWrite
+                0xfff0b8e6                digitalRead
+                0xfff0b8ea                pulseIn
+ P              0xfff0b938       0x1a ./gr_common/lib/librxduino.a(rxduino.o)
+                0xfff0b938                registEthernetHandler
+                0xfff0b941                Reboot
+ P              0xfff0b952       0x10 ./gr_common/lib/librxduino.a(delay.o)
+                0xfff0b952                millis
+                0xfff0b956                micros
+                0xfff0b95a                delay
+                0xfff0b95e                delayMicroseconds
+ P              0xfff0b962       0xee ./gr_common/lib/libtkdnhal.a(hwsetup.o)
+                0xfff0b962                sdram_init
+                0xfff0b963                tkdn_hwsetup
+ P              0xfff0ba50     0x1100 ./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+                0xfff0bc13                sci_getport
+                0xfff0bc1f                sci_readdata
+                0xfff0bc20                sci_convert_crlf
+                0xfff0bc2f                sci_flush
+                0xfff0bc4c                Excep_SCI0_ERI0
+                0xfff0bc75                Excep_SCI0_RXI0
+                0xfff0bc9e                Excep_SCI0_TXI0
+                0xfff0bcd8                Excep_SCI0_TEI0
+                0xfff0bcf0                Excep_SCI1_ERI1
+                0xfff0bd1a                Excep_SCI1_RXI1
+                0xfff0bd44                Excep_SCI1_TXI1
+                0xfff0bd80                Excep_SCI1_TEI1
+                0xfff0bd98                Excep_SCI2_ERI2
+                0xfff0bdc2                Excep_SCI2_RXI2
+                0xfff0bdec                Excep_SCI2_TXI2
+                0xfff0be28                Excep_SCI2_TEI2
+                0xfff0be40                Excep_SCI6_ERI6
+                0xfff0be6a                Excep_SCI6_RXI6
+                0xfff0be94                Excep_SCI6_TXI6
+                0xfff0bed0                Excep_SCI6_TEI6
+                0xfff0bee8                sci_putc_ex
+                0xfff0c065                sci_putc
+                0xfff0c073                sci_puts_ex
+                0xfff0c0a9                sci_puts
+                0xfff0c0b7                sci_getc_ex
+                0xfff0c123                sci_getc
+                0xfff0c12f                sci_writedata_ex
+                0xfff0c306                sci_writedata
+                0xfff0c318                sci_readdata_ex
+                0xfff0c319                sci_rxcount_ex
+                0xfff0c334                sci_gets_ex
+                0xfff0c3aa                sci_gets
+                0xfff0c3bc                sci_rxcount
+                0xfff0c3c8                sci_init_ex
+                0xfff0cac2                sci_init
+                0xfff0cae4                sci_getport_ex
+                0xfff0cae8                sci_convert_crlf_ex
+                0xfff0caef                sci_peek_ex
+                0xfff0cb1d                sci_peek
+                0xfff0cb29                sci_flush_ex
+                0xfff0cb40                sci_regist_default
+ P              0xfff0cb50      0x698 ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+                0xfff0cb50                ether_close
+                0xfff0cba8                ether_write
+                0xfff0cc65                _eth_fifoInit
+                0xfff0ccd6                _eth_fifoWrite
+                0xfff0cd14                _eth_fifoRead
+                0xfff0cd68                ether_read
+                0xfff0ce27                Excep_ETHER_EINT
+                0xfff0ce73                ether_regist_user_rx_procedure
+                0xfff0ce7c                ether_is_linkup
+                0xfff0ce88                ether_autonegotiate
+                0xfff0cefe                ether_open
+                0xfff0d128                ether_is_100M
+                0xfff0d131                ether_is_fullduplex
+                0xfff0d13a                ether_check_recv
+                0xfff0d17d                ether_change_macaddr
+                0xfff0d1cf                ether_enable_promis
+ P              0xfff0d1e8      0x1d0 ./gr_common/lib/libtkdnhal.a(tkdn_timer.o)
+                0xfff0d24f                timer_init
+                0xfff0d262                timer_wait_ms
+                0xfff0d2bc                timer_wait_us
+                0xfff0d314                timer_get_ms
+                0xfff0d31d                timer_get_us
+                0xfff0d333                timer_regist_userfunc
+                0xfff0d33e                timer_regist_disktimer
+                0xfff0d349                timer_regist_ethertimer
+                0xfff0d354                Excep_CMT0_CMI0
+ P              0xfff0d3b8      0x308 ./gr_common/lib/libtkdnhal.a(tkdn_gpio.o)
+                0xfff0d401                gpio_set_pinmode
+                0xfff0d62f                gpio_write_port
+                0xfff0d68d                gpio_read_port
+ P              0xfff0d6c0      0x918 ./gr_common/lib/libtkdnhal.a(tkdn_pwm.o)
+                0xfff0d6c0                pwm_init
+                0xfff0d9ac                pwm_output
+                0xfff0dbdc                pwm_stop
+                0xfff0dcfa                Excep_TPU0_TGIA0
+                0xfff0dd30                Excep_TPU0_TGIB0
+                0xfff0dd5c                Excep_TPU0_TGIC0
+                0xfff0dd89                Excep_TPU0_TGID0
+                0xfff0ddb6                Excep_TPU1_TGIA1
+                0xfff0dde3                Excep_TPU1_TGIB1
+                0xfff0de10                Excep_TPU2_TGIA2
+                0xfff0de3d                Excep_TPU2_TGIB2
+                0xfff0de6a                Excep_TPU3_TGIA3
+                0xfff0de97                Excep_TPU3_TGIB3
+                0xfff0dec4                Excep_TPU3_TGIC3
+                0xfff0def1                Excep_TPU3_TGID3
+                0xfff0df1e                Excep_TPU4_TGIA4
+                0xfff0df4b                Excep_TPU4_TGIB4
+                0xfff0df78                Excep_TPU5_TGIA5
+                0xfff0dfa5                Excep_TPU5_TGIB5
+ P              0xfff0dfd8      0x238 ./gr_common/lib/libtkdnhal.a(tkdn_tone.o)
+                0xfff0dfd8                tone_start_ex
+                0xfff0e17c                tone_start
+                0xfff0e182                tone_stop
+                0xfff0e1a4                Excep_CMT1_CMI1
+                0xfff0e1c6                Excep_CMT2_CMI2
+                0xfff0e1eb                Excep_CMT3_CMI3
+ P              0xfff0e210      0x248 ./gr_common/lib/libtkdnhal.a(phy.o)
+                0xfff0e210                _phy_reg_read
+                0xfff0e24e                _phy_ta_z0
+                0xfff0e274                _phy_mii_write_1
+                0xfff0e29a                _phy_preamble
+                0xfff0e2b2                _phy_mii_write_0
+                0xfff0e2d8                _phy_ta_10
+                0xfff0e2e0                _phy_reg_write
+                0xfff0e31b                _phy_reg_set
+                0xfff0e369                _phy_write
+                0xfff0e38f                phy_set_10half
+                0xfff0e397                phy_set_100full
+                0xfff0e3a1                phy_stop
+                0xfff0e3ab                _phy_read
+                0xfff0e3d2                phy_set_autonegotiate
+                0xfff0e422                phy_init
+ P              0xfff0e458      0x118 ./gr_common/lib/libtkdnhal.a(usb_cdc.o)
+                0xfff0e4f4                TKUSB_Init
+                0xfff0e561                TKUSB_IsConnected
+ P              0xfff0e570      0x338 ./gr_common/lib/libtkdnhal.a(usb_core.o)
+                0xfff0e82e                USBCORE_Init
+ P              0xfff0e8a8      0xf90 ./gr_common/lib/libtkdnhal.a(usb_hal.o)
+                0xfff0e979                TKUSB_RecvByte
+                0xfff0e9d8                TKUSB_PeekByte
+                0xfff0e9fe                TKUSB_RecvDataCount
+                0xfff0ea18                TKUSB_SendByte
+                0xfff0ea8d                TKUSB_SendDataCount
+                0xfff0eaa7                USBHAL_Init
+                0xfff0ed0d                USBHAL_Disable
+                0xfff0ed1d                USBHAL_Control_Status
+                0xfff0ed49                USBHAL_Control_IN
+                0xfff0ed6e                USBHAL_Control_OUT
+                0xfff0edb8                USBHAL_Bulk_OUT
+                0xfff0edf0                ClearOUTBusy
+                0xfff0edfb                USBHAL_Bulk_IN
+                0xfff0ee3b                USBHAL_Interrupt_IN
+                0xfff0ee7b                USBHAL_Control_Stall
+                0xfff0eea5                USBHAL_Bulk_IN_Stall
+                0xfff0eec4                USBHAL_Bulk_OUT_Stall
+                0xfff0eee3                USBHAL_Interrupt_IN_Stall
+                0xfff0ef02                USBHAL_Bulk_IN_Stall_Clear
+                0xfff0ef3c                USBHAL_Bulk_OUT_Stall_Clear
+                0xfff0ef98                USBHAL_Interrupt_IN_Stall_Clear
+                0xfff0efd2                USBHAL_Bulk_IN_Is_Stalled
+                0xfff0eff2                USBHAL_Bulk_OUT_Is_Stalled
+                0xfff0f012                USBHAL_Interrupt_IN_Is_Stalled
+                0xfff0f032                USBHAL_Config_Get
+                0xfff0f039                USBHAL_Config_Set
+                0xfff0f04f                USBHAL_Reset
+                0xfff0f1ca                USBHAL_Cancel
+                0xfff0f218                USBHAL_ResetEndpoints
+                0xfff0f2ea                USBHALInterruptHandler
+ P              0xfff0f838        0x0 ./gr_common/lib/libtkdnhal.a(usbdescriptors.o)
+ P              0xfff0f838      0x288 ./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+                0xfff0f83a                attach_interrupt
+                0xfff0f95e                detach_interrupt
+                0xfff0f976                Excep_IRQ0
+                0xfff0f99e                Excep_IRQ1
+                0xfff0f9c7                Excep_IRQ2
+                0xfff0f9f0                Excep_IRQ3
+                0xfff0fa19                Excep_IRQ4
+                0xfff0fa42                Excep_IRQ5
+                0xfff0fa6b                Excep_IRQ6
+                0xfff0fa94                Excep_IRQ7
+ P              0xfff0fac0      0x9a0 ./gr_common/lib/libtkdnhal.a(tkdn_servo.o)
+                0xfff0fac0                servo_attach
+                0xfff0fd98                servo_write_us
+                0xfff0fe74                servo_write
+                0xfff0fe91                servo_read
+                0xfff0fe94                servo_detach
+                0xfff10037                Excep_TPU6_TGIA6
+                0xfff10068                Excep_TPU6_TGIB6
+                0xfff10099                Excep_TPU6_TGIC6
+                0xfff100ca                Excep_TPU6_TGID6
+                0xfff100fb                Excep_TPU6_TGIE6
+                0xfff1012c                Excep_TPU6_TGIF6
+                0xfff1015d                Excep_TPU7_TGIA7
+                0xfff1018e                Excep_TPU7_TGIB7
+                0xfff101c0                Excep_TPU8_TGIA8
+                0xfff101f1                Excep_TPU8_TGIB8
+                0xfff10222                Excep_TPU9_TGIA9
+                0xfff10253                Excep_TPU9_TGIB9
+                0xfff10284                Excep_TPU9_TGIC9
+                0xfff102b5                Excep_TPU9_TGID9
+                0xfff102e6                Excep_TPU10_TGIA10
+                0xfff10318                Excep_TPU10_TGIB10
+                0xfff10349                Excep_TPU10_TGIC10
+                0xfff1037a                Excep_MTU5_TGIU5
+                0xfff103ab                Excep_MTU5_TGIV5
+                0xfff103dc                Excep_MTU5_TGIW5
+                0xfff1040d                Excep_TPU10_TGID10
+ P              0xfff10460       0x38 ./gr_common/lib/libtkdnhal.a(reboot.o)
+                0xfff10460                system_reboot
+ P              0xfff10498     0x2620 ./gr_mruby/libmruby.a(class.o)
+                0xfff10498                mrb_mod_dummy_visibility
+                0xfff1049d                mrb_class_superclass
+                0xfff10693                kh_alloc_mt
+                0xfff106e7                kh_init_mt_size
+                0xfff1073b                kh_init_mt
+                0xfff10777                kh_destroy_mt
+                0xfff10793                kh_clear_mt
+                0xfff107bb                kh_get_mt
+                0xfff10832                kh_put_mt
+                0xfff10920                kh_resize_mt
+                0xfff109ba                kh_del_mt
+                0xfff109db                kh_copy_mt
+                0xfff10a45                mrb_gc_mark_mt
+                0xfff10a9c                mrb_gc_mark_mt_size
+                0xfff10aa4                mrb_gc_free_mt
+                0xfff10aaa                mrb_name_class
+                0xfff10b1e                mrb_class_outer_module
+                0xfff10b3d                mrb_class_defined
+                0xfff10b64                mrb_class_get_under
+                0xfff10b7b                mrb_class_get
+                0xfff10c98                mrb_define_method_raw
+                0xfff10cd9                mrb_define_method_id
+                0xfff10d0e                mrb_define_method
+                0xfff10d37                mrb_define_method_vm
+                0xfff10d79                mrb_get_args
+                0xfff1140a                mrb_mod_const_defined
+                0xfff11643                mrb_mod_remove_const
+                0xfff116a4                mrb_mod_const_set
+                0xfff116ea                mrb_mod_const_get
+                0xfff1171c                mrb_mod_remove_method
+                0xfff117d7                mrb_mod_remove_cvar
+                0xfff11883                mrb_instance_new
+                0xfff118e8                mrb_mod_module_eval
+                0xfff11944                mrb_include_module
+                0xfff11a37                mrb_singleton_class
+                0xfff11ad9                mrb_define_singleton_method
+                0xfff11b0c                mrb_define_class_method
+                0xfff11b14                mrb_define_module_function
+                0xfff11b3f                mrb_method_search_vm
+                0xfff11b7c                mrb_method_search
+                0xfff11bed                mrb_obj_new
+                0xfff11c24                mrb_obj_respond_to
+                0xfff11cf8                mrb_mod_undef
+                0xfff11d52                mrb_respond_to
+                0xfff11e5f                mrb_class_path
+                0xfff12063                mrb_class_real
+                0xfff12077                mrb_class_name
+                0xfff120d0                mrb_check_inheritable
+                0xfff12150                mrb_class_new
+                0xfff121f0                mrb_define_class_under
+                0xfff12280                mrb_vm_define_class
+                0xfff123a9                mrb_define_class_id
+                0xfff123da                mrb_define_class
+                0xfff123f4                mrb_module_new
+                0xfff12410                mrb_define_module_under
+                0xfff12453                mrb_vm_define_module
+                0xfff12494                mrb_define_module_id
+                0xfff124c3                mrb_define_module
+                0xfff124d5                mrb_obj_class
+                0xfff12517                mrb_obj_classname
+                0xfff12529                mrb_alias_method
+                0xfff1254e                mrb_mod_alias
+                0xfff12581                mrb_define_alias
+                0xfff125a9                mrb_undef_method
+                0xfff125c0                mrb_undef_class_method
+                0xfff125d8                mrb_init_class
+ P              0xfff12ab8      0xaa0 ./gr_mruby/libmruby.a(error.o)
+                0xfff12e84                mrb_exc_new
+                0xfff12eb0                mrb_exc_new3
+                0xfff12eda                mrb_exc_raise
+                0xfff12fe9                mrb_raise
+                0xfff13010                mrb_vformat
+                0xfff13121                mrb_format
+                0xfff13130                mrb_raisef
+                0xfff1315f                mrb_name_error
+                0xfff131a5                mrb_warn
+                0xfff131e7                mrb_bug
+                0xfff1322d                sysexit_status
+                0xfff13250                make_exception
+                0xfff133af                mrb_make_exception
+                0xfff133b6                mrb_sys_fail
+                0xfff13446                mrb_init_exception
+ P              0xfff13558      0xf00 ./gr_mruby/libmruby.a(gc.o)
+                0xfff13f58                mrb_free
+                0xfff13f63                mrb_free_heap
+                0xfff13fac                mrb_gc_protect
+                0xfff13fb4                mrb_gc_mark
+                0xfff13fd4                mrb_incremental_gc
+                0xfff14082                mrb_full_gc
+                0xfff140ed                mrb_realloc_simple
+                0xfff14124                mrb_malloc_simple
+                0xfff1412c                mrb_realloc
+                0xfff14176                mrb_calloc
+                0xfff1420d                mrb_obj_alloc
+                0xfff142a1                mrb_init_heap
+                0xfff142c5                mrb_malloc
+                0xfff142cd                mrb_garbage_collect
+                0xfff142d1                mrb_gc_arena_save
+                0xfff142d5                mrb_gc_arena_restore
+                0xfff142d9                mrb_field_write_barrier
+                0xfff14320                mrb_write_barrier
+                0xfff1433c                mrb_objspace_each_objects
+                0xfff14373                mrb_init_gc
+ P              0xfff14458     0x14d0 ./gr_mruby/libmruby.a(hash.o)
+                0xfff14463                mrb_hash_empty_p
+                0xfff1458b                mrb_hash_keys
+                0xfff147e2                kh_alloc_ht
+                0xfff14833                kh_init_ht_size
+                0xfff14887                kh_init_ht
+                0xfff1488d                kh_destroy_ht
+                0xfff148a9                kh_clear_ht
+                0xfff148d3                mrb_hash_clear
+                0xfff148e9                kh_get_ht
+                0xfff14b65                kh_put_ht
+                0xfff14c81                kh_resize_ht
+                0xfff14d29                kh_del_ht
+                0xfff14d4a                kh_copy_ht
+                0xfff14dbb                mrb_gc_mark_hash
+                0xfff14e2b                mrb_gc_mark_hash_size
+                0xfff14e35                mrb_gc_free_hash
+                0xfff14e3f                mrb_hash_new_capa
+                0xfff14e6d                mrb_hash_new
+                0xfff14e74                mrb_hash_get
+                0xfff14f07                mrb_hash_aget
+                0xfff14f3a                mrb_hash_fetch
+                0xfff14f75                mrb_hash_dup
+                0xfff1502a                mrb_check_hash_type
+                0xfff15041                mrb_hash_tbl
+                0xfff151e2                mrb_hash_set
+                0xfff153c3                mrb_hash_aset
+                0xfff1540b                mrb_hash_delete_key
+                0xfff15558                mrb_hash_delete
+                0xfff1558b                mrb_hash_assoc
+                0xfff15606                mrb_hash_rassoc
+                0xfff15660                mrb_init_hash
+ P              0xfff15928      0xff8 ./gr_mruby/libmruby.a(kernel.o)
+                0xfff15998                mrb_false
+                0xfff159ff                mrb_obj_hash
+                0xfff15ac7                obj_respond_to
+                0xfff15c19                mrb_obj_remove_instance_variable
+                0xfff15c7a                mrb_obj_init_copy
+                0xfff15cf7                mrb_f_raise
+                0xfff15db3                mrb_obj_is_kind_of_m
+                0xfff15e16                mrb_obj_ivar_set
+                0xfff15e5e                mrb_obj_ivar_get
+                0xfff15e92                mrb_obj_ivar_defined
+                0xfff15ece                mrb_obj_instance_eval
+                0xfff15f4c                mrb_obj_extend_m
+                0xfff16051                mrb_obj_dup
+                0xfff16113                mrb_obj_basic_to_s_p
+                0xfff16190                mrb_obj_inspect
+                0xfff161be                mrb_singleton_class_clone
+                0xfff16252                mrb_obj_clone
+                0xfff162b6                mrb_obj_is_instance_of
+                0xfff162fd                class_instance_method_list
+                0xfff16347                mrb_obj_singleton_methods
+                0xfff163df                mrb_obj_singleton_methods_m
+                0xfff1640c                mrb_obj_methods
+                0xfff16463                mrb_obj_public_methods
+                0xfff16493                mrb_obj_protected_methods
+                0xfff164c3                mrb_obj_private_methods
+                0xfff164f3                mrb_obj_methods_m
+                0xfff16523                mrb_init_kernel
+ P              0xfff16920      0xc80 ./gr_mruby/libmruby.a(load.o)
+                0xfff16f53                mrb_read_irep
+                0xfff170f6                mrb_load_irep
+                0xfff17132                mrb_read_irep_file
+                0xfff1755e                mrb_load_irep_file
+ P              0xfff175a0      0x910 ./gr_mruby/libmruby.a(object.o)
+                0xfff176ef                mrb_obj_eq
+                0xfff17737                mrb_obj_equal
+                0xfff17743                mrb_equal
+                0xfff1778d                mrb_init_object
+                0xfff1795f                mrb_check_to_integer
+                0xfff17987                mrb_convert_type
+                0xfff17a0e                mrb_check_convert_type
+                0xfff17a4b                mrb_check_type
+                0xfff17b62                mrb_any_to_s
+                0xfff17be7                mrb_obj_is_kind_of
+                0xfff17cfa                mrb_to_int
+                0xfff17d04                mrb_Integer
+                0xfff17db4                mrb_Float
+                0xfff17e3e                mrb_inspect
+                0xfff17e63                mrb_eql
+ P              0xfff17eb0      0x120 ./gr_mruby/libmruby.a(print.o)
+                0xfff17ecd                mrb_p
+                0xfff17f29                mrb_print_error
+                0xfff17fab                mrb_show_version
+                0xfff17fbc                mrb_show_copyright
+ P              0xfff17fd0      0x3e0 ./gr_mruby/libmruby.a(proc.o)
+                0xfff18159                mrb_proc_new
+                0xfff1817b                mrb_closure_new
+                0xfff181e8                mrb_proc_new_cfunc
+                0xfff18202                mrb_closure_new_cfunc
+                0xfff18269                mrb_proc_copy
+                0xfff1828a                mrb_proc_cfunc_p
+                0xfff18291                mrb_proc_call_cfunc
+                0xfff1829b                mrb_proc_iseq
+                0xfff182a2                mrb_init_proc
+ P              0xfff183b0      0x280 ./gr_mruby/libmruby.a(state.o)
+                0xfff183d8                mrb_open_allocf
+                0xfff1842a                mrb_alloca
+                0xfff18445                mrb_open
+                0xfff18451                mrb_irep_free
+                0xfff1849e                mrb_free_context
+                0xfff184d1                mrb_close
+                0xfff18546                mrb_add_irep
+                0xfff185d4                mrb_top_self
+ P              0xfff18630     0x24b8 ./gr_mruby/libmruby.a(string.o)
+                0xfff18635                mrb_str_size
+                0xfff1885c                mrb_str_intern
+                0xfff18f35                mrb_str_modify
+                0xfff19343                mrb_str_resize
+                0xfff19389                mrb_str_offset
+                0xfff1938c                str_with_class
+                0xfff19391                mrb_str_buf_new
+                0xfff193cf                mrb_str_buf_cat
+                0xfff193eb                mrb_str_new
+                0xfff193f1                mrb_str_inspect
+                0xfff194eb                mrb_str_new_cstr
+                0xfff19538                mrb_str_new_static
+                0xfff19560                mrb_gc_free_str
+                0xfff1957c                mrb_str_to_cstr
+                0xfff195de                mrb_str_literal
+                0xfff19628                mrb_str_body
+                0xfff19633                mrb_str_plus
+                0xfff1969a                mrb_str_cmp
+                0xfff197aa                mrb_str_equal
+                0xfff1987e                mrb_str_to_str
+                0xfff19930                mrb_str_concat
+                0xfff199ac                mrb_string_value_ptr
+                0xfff199b3                mrb_str_dup
+                0xfff19aaf                mrb_str_substr
+                0xfff19be6                mrb_str_hash
+                0xfff19c0c                mrb_obj_as_string
+                0xfff19c43                mrb_ptr_to_str
+                0xfff19c9d                mrb_string_type
+                0xfff19cb5                mrb_check_string_type
+                0xfff19f03                mrb_cstr_to_inum
+                0xfff1a1a4                mrb_string_value_cstr
+                0xfff1a1df                mrb_str_to_inum
+                0xfff1a2b2                mrb_cstr_to_dbl
+                0xfff1a469                mrb_str_to_dbl
+                0xfff1a4d1                mrb_str_dump
+                0xfff1a68b                mrb_str_cat
+                0xfff1a6dc                mrb_str_buf_append
+                0xfff1a6fa                mrb_str_cat_cstr
+                0xfff1a71e                mrb_str_append
+                0xfff1a747                mrb_init_string
+ P              0xfff1aae8      0xa30 ./gr_mruby/libmruby.a(symbol.o)
+                0xfff1ad21                kh_alloc_n2s
+                0xfff1ad75                kh_init_n2s_size
+                0xfff1adc9                kh_init_n2s
+                0xfff1adcf                kh_destroy_n2s
+                0xfff1adeb                kh_clear_n2s
+                0xfff1ae13                kh_get_n2s
+                0xfff1aec4                kh_put_n2s
+                0xfff1afe5                kh_resize_n2s
+                0xfff1b089                kh_del_n2s
+                0xfff1b0aa                kh_copy_n2s
+                0xfff1b11b                mrb_intern2
+                0xfff1b17c                mrb_intern_cstr
+                0xfff1b198                mrb_intern_str
+                0xfff1b1a3                mrb_check_intern
+                0xfff1b1ce                mrb_check_intern_cstr
+                0xfff1b1e9                mrb_check_intern_str
+                0xfff1b1f5                mrb_sym2name_len
+                0xfff1b358                mrb_sym_to_s
+                0xfff1b371                mrb_free_symtbl
+                0xfff1b3ce                mrb_init_symtbl
+                0xfff1b3dc                mrb_sym2str
+                0xfff1b42c                mrb_sym2name
+                0xfff1b472                mrb_init_symbol
+ P              0xfff1b518      0xe20 ./gr_mruby/libmruby.a(variable.o)
+                0xfff1b9ef                mrb_gc_mark_gv
+                0xfff1ba01                mrb_gc_free_gv
+                0xfff1ba0a                mrb_gc_mark_iv
+                0xfff1ba1c                mrb_gc_mark_iv_size
+                0xfff1ba55                mrb_gc_free_iv
+                0xfff1ba5e                mrb_vm_special_get
+                0xfff1ba63                mrb_vm_special_set
+                0xfff1ba64                mrb_obj_iv_get
+                0xfff1ba86                mrb_iv_get
+                0xfff1baa3                mrb_obj_iv_set
+                0xfff1bae7                mrb_obj_iv_ifnone
+                0xfff1bb37                mrb_iv_set
+                0xfff1bb77                mrb_obj_iv_defined
+                0xfff1bb88                mrb_iv_defined
+                0xfff1bba2                mrb_iv_copy
+                0xfff1bc20                mrb_obj_iv_inspect
+                0xfff1bcfe                mrb_iv_remove
+                0xfff1bd6f                mrb_vm_iv_get
+                0xfff1bd81                mrb_vm_iv_set
+                0xfff1bd9c                mrb_obj_instance_variables
+                0xfff1bdda                mrb_mod_class_variables
+                0xfff1be17                mrb_mod_cv_get
+                0xfff1be80                mrb_cv_get
+                0xfff1be87                mrb_mod_cv_set
+                0xfff1bf13                mrb_cv_set
+                0xfff1bf21                mrb_mod_cv_defined
+                0xfff1bf5c                mrb_cv_defined
+                0xfff1bf62                mrb_vm_cv_get
+                0xfff1bf7f                mrb_vm_cv_set
+                0xfff1c014                mrb_const_defined
+                0xfff1c028                mrb_const_get
+                0xfff1c041                mrb_vm_const_get
+                0xfff1c0bc                mrb_const_set
+                0xfff1c0ee                mrb_vm_const_set
+                0xfff1c11e                mrb_const_remove
+                0xfff1c13f                mrb_define_const
+                0xfff1c16a                mrb_define_global_const
+                0xfff1c17e                mrb_mod_constants
+                0xfff1c1c7                mrb_gv_get
+                0xfff1c1f1                mrb_gv_set
+                0xfff1c21f                mrb_f_global_variables
+                0xfff1c290                mrb_const_defined_at
+                0xfff1c2dd                mrb_attr_get
+                0xfff1c2e2                mrb_class_sym
+ P              0xfff1c338     0x2cd8 ./gr_mruby/libmruby.a(vm.o)
+                0xfff1c4e6                mrb_longjmp
+                0xfff1c4ee                mrb_run
+                0xfff1ea82                mrb_yield_internal
+                0xfff1eb98                mrb_yield
+                0xfff1ebbf                mrb_yield_argv
+                0xfff1ebe2                mrb_funcall_with_block
+                0xfff1ef36                mrb_funcall_argv
+                0xfff1ef57                mrb_funcall
+ P              0xfff1f010     0x18e8 ./gr_mruby/libmruby.a(array.o)
+                0xfff1f010                mrb_ary_pop
+                0xfff1f034                mrb_ary_empty_p
+                0xfff1f041                mrb_ary_rindex_m
+                0xfff1f09e                mrb_ary_index_m
+                0xfff1f1a2                mrb_ary_shift
+                0xfff1f298                mrb_ary_cmp
+                0xfff1f546                mrb_ary_new_capa
+                0xfff1f5b7                mrb_ary_reverse
+                0xfff1f5f5                mrb_ary_plus
+                0xfff1f678                mrb_ary_new
+                0xfff1f67f                mrb_ary_times
+                0xfff1f720                mrb_ary_new_from_values
+                0xfff1f755                mrb_ary_last
+                0xfff1f812                mrb_ary_first
+                0xfff1f89a                mrb_ary_s_create
+                0xfff1f8c5                mrb_assoc_new
+                0xfff1f8e7                mrb_ary_ref
+                0xfff1f906                mrb_ary_aget
+                0xfff1f9ca                mrb_ary_len
+                0xfff1f9cd                mrb_ary_decref
+                0xfff1fa64                mrb_ary_clear
+                0xfff1fa87                mrb_ary_delete_at
+                0xfff1fb41                mrb_ary_splice
+                0xfff1fc8a                mrb_ary_set
+                0xfff1fd4c                mrb_ary_aset
+                0xfff1fe09                mrb_ary_unshift_m
+                0xfff1ff2a                mrb_ary_unshift
+                0xfff1fffa                mrb_ary_push
+                0xfff2035f                mrb_ary_push_m
+                0xfff203bf                mrb_ary_reverse_bang
+                0xfff20404                mrb_ary_replace
+                0xfff2045d                mrb_ary_replace_m
+                0xfff204f5                mrb_ary_concat_m
+                0xfff20529                mrb_ary_concat
+                0xfff20539                mrb_ary_splat
+                0xfff20553                mrb_check_array_type
+                0xfff2056a                mrb_ary_entry
+                0xfff20593                mrb_ary_join
+                0xfff20603                mrb_init_array
+ P              0xfff208f8      0x278 ./gr_mruby/libmruby.a(backtrace.o)
+                0xfff20b31                mrb_print_backtrace
+                0xfff20b47                mrb_get_backtrace
+ P              0xfff20b70       0x38 ./gr_mruby/libmruby.a(crc.o)
+                0xfff20b70                calc_crc_16_ccitt
+ P              0xfff20ba8      0x318 ./gr_mruby/libmruby.a(debug.o)
+                0xfff20ba8                mrb_debug_get_filename
+                0xfff20c17                mrb_debug_get_line
+                0xfff20cd7                mrb_debug_info_alloc
+                0xfff20cef                mrb_debug_info_append_file
+                0xfff20e64                mrb_debug_info_free
+ P              0xfff20ec0      0x268 ./gr_mruby/libmruby.a(etc.o)
+                0xfff20ec0                mrb_data_object_alloc
+                0xfff20ed9                mrb_data_check_type
+                0xfff20fa4                mrb_data_check_get_ptr
+                0xfff20fb4                mrb_data_get_ptr
+                0xfff20fc1                mrb_lastline_get
+                0xfff20ff5                mrb_exec_recursive
+                0xfff21015                mrb_obj_to_sym
+                0xfff2108f                mrb_block_proc
+                0xfff21094                mrb_obj_id
+ P              0xfff21128       0xea ./gr_mruby/libmruby.a(init.o)
+                0xfff21128                mrb_init_core
+                0xfff21200                mrb_final_core
+ *fill*         0xfff21212        0x6 00
+ P              0xfff21218     0x1290 ./gr_mruby/libmruby.a(numeric.o)
+                0xfff21b1e                mrb_num_div
+                0xfff21b4a                mrb_flo_to_str
+                0xfff21d2f                mrb_fixnum_mul
+                0xfff21dcc                mrb_flo_to_fixnum
+                0xfff21e5b                mrb_fixnum_plus
+                0xfff21ee3                mrb_fixnum_minus
+                0xfff21f60                mrb_fixnum_to_str
+                0xfff22042                mrb_init_numeric
+ P              0xfff224a8      0x748 ./gr_mruby/libmruby.a(range.o)
+                0xfff224a8                mrb_range_beg
+                0xfff224b1                mrb_range_end
+                0xfff224bb                mrb_range_excl
+                0xfff224c8                mrb_range_each
+                0xfff22669                mrb_range_include
+                0xfff22717                mrb_range_eq
+                0xfff22894                range_initialize_copy
+                0xfff22934                mrb_range_initialize
+                0xfff2298a                mrb_range_new
+                0xfff229e7                mrb_range_beg_len
+                0xfff22a60                mrb_init_range
+ P              0xfff22bf0        0xa ./gr_mruby/libmruby.a(mrblib.o)
+                0xfff22bf0                mrb_init_mrblib
+ P              0xfff22bfa        0x8 ./gr_mruby/libmruby.a(gem_init.o)
+                0xfff22bfa                mrb_init_mrbgems
+                0xfff22bfe                mrb_final_mrbgems
+ P              0xfff22c02        0xa ./gr_mruby/libmruby.a(compar.o)
+                0xfff22c02                mrb_init_comparable
+ P              0xfff22c0c        0xa ./gr_mruby/libmruby.a(enum.o)
+                0xfff22c0c                mrb_init_enumerable
+ P              0xfff22c16       0x1e ./gr_mruby/libmruby.a(gem_init.o)
+                0xfff22c16                GENERATED_TMP_mrb_mruby_math_gem_init
+                0xfff22c30                GENERATED_TMP_mrb_mruby_math_gem_final
+ P              0xfff22c34      0x5d3 ./gr_mruby/libmruby.a(math.o)
+                0xfff22f7c                mrb_mruby_math_gem_init
+                0xfff23206                mrb_mruby_math_gem_final
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-abort.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-ctype_.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-exit.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-fread.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-fseek.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-fstatr.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-ftell.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-fwrite.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-makebuf.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-malloc.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-memchr.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-memcpy.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-memset.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-mlock.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-printf.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-realloc.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-reallocr.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-reent.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-refill.o)
+ P              0xfff23207        0x0 ./gr_common/lib//libc.a(lib_a-sbrkr.o)
+ P              0xfff23207       0x65 ./gr_common/lib//libc.a(lib_a-setjmp.o)
+                0xfff23207                setjmp
+                0xfff23236                longjmp
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-sf_fpclassify.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-sf_frexp.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-sf_ldexp.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-sf_scalbn.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-signal.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-signalr.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-stdio.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-strlen.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-strtod.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-strtoul.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-vsnprintf.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-wbuf.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-writer.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-wsetup.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-__call_atexit.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-closer.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-dtoa.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-fflush.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-findfp.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-freer.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-fvwrite.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-fwalk.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-gdtoa-hexnan.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-isattyr.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-locale.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-lseekr.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-memmove.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-mprec.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-readr.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-sf_copysign.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-sf_finite.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-sf_nan.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-strcmp.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-strncmp.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-callocr.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-fclose.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-fputwc.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-wcrtomb.o)
+ P              0xfff2326c        0x0 ./gr_common/lib//libc.a(lib_a-wctomb_r.o)
+ P              0xfff2326c        0xe ./gr_common/lib//libsim.a(exit.o)
+                0xfff2326c                _exit
+ P              0xfff2327a        0x6 ./gr_common/lib//libsim.a(getpid.o)
+                0xfff2327a                getpid
+                0xfff2327a                _getpid
+ P              0xfff23280        0x6 ./gr_common/lib//libsim.a(kill.o)
+                0xfff23280                _kill
+                0xfff23280                kill
+ *fill*         0xfff23286        0x2 00
+ P              0xfff23288      0x3c8 ./gr_common/lib//libgcc.a(_udivdi3.o)
+                0xfff23288                __udivdi3
+                0xfff23288                _COM_DIV64u
+ P              0xfff23650      0x398 ./gr_common/lib//libgcc.a(_umoddi3.o)
+                0xfff23650                _COM_MOD64u
+                0xfff23650                __umoddi3
+ P              0xfff239e8        0x0 ./gr_common/lib//libgcc.a(_clz.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_asinh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_atan.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_cbrt.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_ceil.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_cos.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_erf.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_fabs.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_floor.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_log1p.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_sin.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_tanh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_tan.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_acosh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_acos.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_asin.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_atan2.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_atanh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_cosh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_exp.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_fmod.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_hypot.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_log10.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_log.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_pow.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_sinh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-wf_sqrt.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_acosh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_acos.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_asin.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_atan2.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_atanh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_cosh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_exp.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_fmod.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_hypot.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_log10.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_log.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_sinh.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-ef_sqrt.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-kf_cos.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-kf_rem_pio2.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-kf_sin.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-kf_tan.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_expm1.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-sf_rint.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-s_lib_ver.o)
+ P              0xfff239e8        0x0 ./gr_common/lib//libm.a(lib_a-s_matherr.o)
+                0xfff239e8                etext = .
+
+.rvectors       0xfff239e8      0x400
+                0xfff239e8                _rvectors_start = .
+ *(.rvectors)
+ .rvectors      0xfff239e8      0x400 ./gr_common/intvect.o
+                0xfff239e8                Relocatable_Vectors
+                0xfff23de8                _rvectors_end = .
+
+.init           0xfff23de8        0x0
+ *(.init)
+                0xfff23de8                __preinit_array_start = .
+ *(.preinit_array)
+                0xfff23de8                __preinit_array_end = .
+                0xfff23de8                __init_array_start = ((. + 0x3) & 0xfffffffc)
+ *(.init_array)
+ *(SORT(.init_array.*))
+                0xfff23de8                __init_array_end = .
+                0xfff23de8                __fini_array_start = .
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0xfff23de8                __fini_array_end = .
+
+.fini
+ *(.fini)
+
+.got
+ *(.got)
+ *(.got.plt)
+
+.rodata         0xfff23de8     0x6ce4
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.str1.1
+                0xfff23de8       0x11 ./gr_sketch.o
+ *fill*         0xfff23df9        0x3 00
+ .rodata._global_impure_ptr
+                0xfff23dfc        0x4 ./gr_common/lib/libc.a(lib_a-impure.o)
+                0xfff23dfc                _global_impure_ptr
+ .rodata.str1.1
+                0x00000000       0x11 ./gr_common/lib/libc.a(lib_a-impure.o)
+                                  0x2 (size before relaxing)
+ .rodata.str1.1
+                0xfff23e00        0x5 ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+ *fill*         0xfff23e05        0x3 00
+ .rodata.cst4   0xfff23e08        0x4 ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+ .rodata.str1.1
+                0xfff23e0c      0x60c ./gr_mruby/libmruby.a(class.o)
+                                0x641 (size before relaxing)
+ .rodata.str1.1
+                0xfff24418      0x112 ./gr_mruby/libmruby.a(error.o)
+                                0x15f (size before relaxing)
+ .rodata.str1.1
+                0xfff2452a       0x96 ./gr_mruby/libmruby.a(gc.o)
+                                 0xa7 (size before relaxing)
+ .rodata.str1.1
+                0xfff245c0       0xc9 ./gr_mruby/libmruby.a(hash.o)
+                                0x13f (size before relaxing)
+ .rodata.str1.1
+                0xfff24689      0x280 ./gr_mruby/libmruby.a(kernel.o)
+                                0x33d (size before relaxing)
+ .rodata.str1.1
+                0xfff24909       0x14 ./gr_mruby/libmruby.a(load.o)
+                                 0x20 (size before relaxing)
+ .rodata.str1.1
+                0xfff2491d      0x162 ./gr_mruby/libmruby.a(object.o)
+                                0x1d9 (size before relaxing)
+ .rodata.str1.1
+                0x00000000        0x8 ./gr_mruby/libmruby.a(print.o)
+ .rodata.str1.1
+                0xfff24a7f       0x44 ./gr_mruby/libmruby.a(proc.o)
+                                 0x7e (size before relaxing)
+ .rodata.str1.1
+                0xfff24ac3        0x5 ./gr_mruby/libmruby.a(state.o)
+                                 0x12 (size before relaxing)
+ .rodata.str1.1
+                0xfff24ac8      0x22c ./gr_mruby/libmruby.a(string.o)
+                                0x2da (size before relaxing)
+ .rodata.str1.1
+                0xfff24cf4        0x8 ./gr_mruby/libmruby.a(symbol.o)
+                                 0x2d (size before relaxing)
+ .rodata.str1.1
+                0xfff24cfc       0x94 ./gr_mruby/libmruby.a(variable.o)
+                                 0xc3 (size before relaxing)
+ .rodata.str1.1
+                0xfff24d90       0xce ./gr_mruby/libmruby.a(vm.o)
+                                0x152 (size before relaxing)
+ .rodata.str1.1
+                0xfff24e5e       0xf0 ./gr_mruby/libmruby.a(array.o)
+                                0x1e6 (size before relaxing)
+ .rodata.str1.1
+                0xfff24f4e       0x3d ./gr_mruby/libmruby.a(backtrace.o)
+                                 0x4e (size before relaxing)
+ .rodata.str1.1
+                0xfff24f8b       0x1f ./gr_mruby/libmruby.a(etc.o)
+                                 0x63 (size before relaxing)
+ .rodata.str1.1
+                0xfff24faa      0x117 ./gr_mruby/libmruby.a(numeric.o)
+                                0x1b8 (size before relaxing)
+ .rodata.str1.1
+                0xfff250c1       0x5a ./gr_mruby/libmruby.a(range.o)
+                                 0xdd (size before relaxing)
+ .rodata.str1.1
+                0x00000000        0xb ./gr_mruby/libmruby.a(compar.o)
+ .rodata.str1.1
+                0x00000000        0xb ./gr_mruby/libmruby.a(enum.o)
+ .rodata.str1.1
+                0xfff2511b       0x77 ./gr_mruby/libmruby.a(math.o)
+                                 0x9a (size before relaxing)
+ .rodata._ctype_
+                0xfff25192      0x101 ./gr_common/lib//libc.a(lib_a-ctype_.o)
+                0xfff25192                _ctype_
+ .rodata.str1.1
+                0x00000000       0x77 ./gr_common/lib//libc.a(lib_a-strtod.o)
+                                  0xc (size before relaxing)
+ *fill*         0xfff25293        0x1 00
+ .rodata.tinytens
+                0xfff25294       0x14 ./gr_common/lib//libc.a(lib_a-strtod.o)
+ .rodata.str1.1
+                0xfff252a8       0x2a ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+                                 0x34 (size before relaxing)
+ *fill*         0xfff252d2        0x2 00
+ .rodata._vfprintf_r
+                0xfff252d4      0x164 ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+ .rodata.blanks.3904
+                0xfff25438       0x10 ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+ .rodata.zeroes.3905
+                0xfff25448       0x10 ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+ .rodata.str1.1
+                0x00000000        0xf ./gr_common/lib//libc.a(lib_a-dtoa.o)
+ .rodata.str1.1
+                0xfff25458        0x6 ./gr_common/lib//libc.a(lib_a-locale.o)
+                                  0xb (size before relaxing)
+ *fill*         0xfff2545e        0x2 00
+ .rodata.__mprec_tinytens
+                0xfff25460        0x8 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff25460                __mprec_tinytens
+ .rodata.__mprec_bigtens
+                0xfff25468        0x8 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff25468                __mprec_bigtens
+ .rodata.__mprec_tens
+                0xfff25470       0x64 ./gr_common/lib//libc.a(lib_a-mprec.o)
+                0xfff25470                __mprec_tens
+ .rodata.p05.2408
+                0xfff254d4        0xc ./gr_common/lib//libc.a(lib_a-mprec.o)
+ .rodata.str1.1
+                0x00000000       0x34 ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+ .rodata._svfprintf_r
+                0xfff254e0      0x164 ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+ .rodata.blanks.3889
+                0xfff25644       0x10 ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+ .rodata.zeroes.3890
+                0xfff25654       0x10 ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+ .rodata.str1.1
+                0x00000000       0x22 ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+ .rodata.blanks.3847
+                0xfff25664       0x10 ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+ .rodata.zeroes.3848
+                0xfff25674       0x10 ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+ .rodata.str1.1
+                0xfff25684        0xb ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+                                 0x19 (size before relaxing)
+ .rodata.str1.1
+                0x00000000       0x22 ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+ .rodata.blanks.3833
+                0xfff2568f       0x10 ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+ .rodata.zeroes.3834
+                0xfff2569f       0x10 ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+ *fill*         0xfff256af        0x1 00
+ .rodata.atanhi
+                0xfff256b0       0x10 ./gr_common/lib//libm.a(lib_a-sf_atan.o)
+ .rodata.atanlo
+                0xfff256c0       0x10 ./gr_common/lib//libm.a(lib_a-sf_atan.o)
+ .rodata.str1.1
+                0xfff256d0        0x7 ./gr_common/lib//libm.a(lib_a-wf_acosh.o)
+ .rodata.str1.1
+                0xfff256d7        0x6 ./gr_common/lib//libm.a(lib_a-wf_acos.o)
+                                  0x7 (size before relaxing)
+ .rodata.str1.1
+                0xfff256dd        0x6 ./gr_common/lib//libm.a(lib_a-wf_asin.o)
+                                  0x7 (size before relaxing)
+ .rodata.str1.1
+                0xfff256e3        0x7 ./gr_common/lib//libm.a(lib_a-wf_atanh.o)
+ .rodata.str1.1
+                0x00000000        0x7 ./gr_common/lib//libm.a(lib_a-wf_cosh.o)
+                                  0x6 (size before relaxing)
+ .rodata.str1.1
+                0xfff256ea        0x5 ./gr_common/lib//libm.a(lib_a-wf_exp.o)
+ .rodata.str1.1
+                0xfff256ef        0x6 ./gr_common/lib//libm.a(lib_a-wf_fmod.o)
+ .rodata.str1.1
+                0xfff256f5        0x7 ./gr_common/lib//libm.a(lib_a-wf_hypot.o)
+ .rodata.str1.1
+                0xfff256fc        0x7 ./gr_common/lib//libm.a(lib_a-wf_log10.o)
+                                  0x8 (size before relaxing)
+ .rodata.str1.1
+                0xfff25703        0x5 ./gr_common/lib//libm.a(lib_a-wf_log.o)
+                                  0x6 (size before relaxing)
+ .rodata.str1.1
+                0xfff25708        0x5 ./gr_common/lib//libm.a(lib_a-wf_pow.o)
+ .rodata.str1.1
+                0xfff2570d        0x6 ./gr_common/lib//libm.a(lib_a-wf_sinh.o)
+ .rodata.str1.1
+                0xfff25713        0x6 ./gr_common/lib//libm.a(lib_a-wf_sqrt.o)
+ *fill*         0xfff25719        0x3 00
+ .rodata.ln2HI  0xfff2571c        0x8 ./gr_common/lib//libm.a(lib_a-ef_exp.o)
+ .rodata.ln2LO  0xfff25724        0x8 ./gr_common/lib//libm.a(lib_a-ef_exp.o)
+ .rodata.halF   0xfff2572c        0x8 ./gr_common/lib//libm.a(lib_a-ef_exp.o)
+ .rodata.Zero   0xfff25734        0x8 ./gr_common/lib//libm.a(lib_a-ef_fmod.o)
+ .rodata.str1.1
+                0x00000000        0x1 ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+ .rodata.bp     0xfff2573c        0x8 ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+ .rodata.dp_l   0xfff25744        0x8 ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+ .rodata.dp_h   0xfff2574c        0x8 ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+ .rodata.npio2_hw
+                0xfff25754       0x80 ./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0xfff257d4      0x318 ./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.init_jk
+                0xfff25aec        0xc ./gr_common/lib//libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.PIo2   0xfff25af8       0x2c ./gr_common/lib//libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.TWO23  0xfff25b24        0x8 ./gr_common/lib//libm.a(lib_a-sf_rint.o)
+ *(C_1)
+ *(C_2)
+ *(C)
+ C              0xfff25b2c      0x13c ./sample.o
+                0xfff25b2c                code
+ C              0xfff25c68      0x13c ./gr_sketch.o
+ C              0xfff25da4       0x84 ./gr_common/lib/libtkdnhal.a(tkdn_gpio.o)
+                0xfff25da4                SFP_PINMAP
+                0xfff25db8                GPIO_PINMAP
+ C              0xfff25e28       0x78 ./gr_common/lib/libtkdnhal.a(tkdn_pwm.o)
+ C              0xfff25ea0        0x8 ./gr_common/lib/libtkdnhal.a(usb_cdc.o)
+ C              0xfff25ea8       0x2c ./gr_common/lib/libtkdnhal.a(usb_core.o)
+                0xfff25ed0                gStringDescriptorLanguageIDsData
+ C              0xfff25ed4       0xc4 ./gr_common/lib/libtkdnhal.a(usbdescriptors.o)
+                0xfff25ed4                gStringDescriptorSerialNum
+                0xfff25edc                gStringDescriptorProduct
+                0xfff25ee4                gStringDescriptorManufacturer
+                0xfff25eec                gConfigurationDescriptor
+                0xfff25ef4                gDeviceDescriptor
+ C              0xfff25f98       0x20 ./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+ C              0xfff25fb8       0xf0 ./gr_common/lib/libtkdnhal.a(tkdn_servo.o)
+ C              0xfff260a8      0x1d4 ./gr_mruby/libmruby.a(class.o)
+ C              0xfff2627c       0xd4 ./gr_mruby/libmruby.a(gc.o)
+ C              0xfff26350       0x18 ./gr_mruby/libmruby.a(hash.o)
+ C              0xfff26368       0x68 ./gr_mruby/libmruby.a(kernel.o)
+ C              0xfff263d0       0x1c ./gr_mruby/libmruby.a(load.o)
+ C              0xfff263ec       0xcc ./gr_mruby/libmruby.a(object.o)
+ C              0xfff264b8       0x78 ./gr_mruby/libmruby.a(print.o)
+ C              0xfff26530      0x34c ./gr_mruby/libmruby.a(string.o)
+                0xfff266cc                mrb_digitmap
+ C              0xfff2687c      0x38c ./gr_mruby/libmruby.a(symbol.o)
+ C              0xfff26c08      0x1e8 ./gr_mruby/libmruby.a(vm.o)
+ C              0xfff26df0       0x3c ./gr_mruby/libmruby.a(etc.o)
+ C              0xfff26e2c     0x3ba0 ./gr_mruby/libmruby.a(mrblib.o)
+                0xfff26e2c                mrblib_irep
+ C              0xfff2a9cc      0x100 ./gr_common/lib//libgcc.a(_clz.o)
+                0xfff2a9cc                __clz_tab
+                0xfff2aacc                _erodata = .
+
+.fvectors       0xfff2aacc       0x30
+ *.o(.fvectors)
+ .fvectors      0xfff2aacc       0x30 ./gr_common/intvect.o
+                0xfff2aacc                Fixed_Vectors
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.jcr
+ *(.jcr)
+
+.tors           0xfff2aafc        0x0
+                0xfff2aafc                __CTOR_LIST__ = .
+                0xfff2aafc                ___ctors = .
+ *(.ctors)
+                0xfff2aafc                ___ctors_end = .
+                0xfff2aafc                __CTOR_END__ = .
+                0xfff2aafc                __DTOR_LIST__ = .
+                0xfff2aafc                ___dtors = .
+ *(.dtors)
+                0xfff2aafc                ___dtors_end = .
+                0xfff2aafc                __DTOR_END__ = .
+                0xfff2aafc                _mdata = .
+
+.istack         0x00020000        0x0
+                0x00020000                _istack = .
+
+.ustack         0x0001ff00        0x0
+                0x0001ff00                _ustack = .
+
+.data           0x00001000      0x9b8 load address 0xfff2aafc
+                0x00001000                _data = .
+ *(.data)
+ .data          0x00001000        0x4 ./gr_common/gstart.o
+                0x00001000                __dso_handle
+ *(.data.*)
+ .data._impure_ptr
+                0x00001004        0x4 ./gr_common/lib/libc.a(lib_a-impure.o)
+                0x00001004                _impure_ptr
+ .data.impure_data
+                0x00001008      0x424 ./gr_common/lib/libc.a(lib_a-impure.o)
+ .data.__ctype_ptr__
+                0x0000142c        0x4 ./gr_common/lib//libc.a(lib_a-ctype_.o)
+                0x0000142c                __ctype_ptr__
+ .data.__malloc_sbrk_base
+                0x00001430        0x4 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+                0x00001430                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x00001434        0x4 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+                0x00001434                __malloc_trim_threshold
+ .data.__malloc_av_
+                0x00001438      0x408 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+                0x00001438                __malloc_av_
+ .data.fpinan.2381
+                0x00001840       0x14 ./gr_common/lib//libc.a(lib_a-strtod.o)
+ .data.__mb_cur_max
+                0x00001854        0x4 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0x00001854                __mb_cur_max
+ .data.lc_ctype_charset
+                0x00001858       0x20 ./gr_common/lib//libc.a(lib_a-locale.o)
+ .data.lc_message_charset
+                0x00001878       0x20 ./gr_common/lib//libc.a(lib_a-locale.o)
+ .data.lconv    0x00001898       0x38 ./gr_common/lib//libc.a(lib_a-locale.o)
+ .data.__wctomb
+                0x000018d0        0x4 ./gr_common/lib//libc.a(lib_a-wctomb_r.o)
+                0x000018d0                __wctomb
+ .data.__fdlib_version
+                0x000018d4        0x4 ./gr_common/lib//libm.a(lib_a-s_lib_ver.o)
+                0x000018d4                __fdlib_version
+ *(D)
+ D              0x000018d8        0x4 ./gr_common/lowlevel.o
+ D              0x000018dc       0x6c ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+                0x000018dc                le0
+ D              0x00001948        0x4 ./gr_common/lib/libtkdnhal.a(tkdn_pwm.o)
+ D              0x0000194c        0xc ./gr_common/lib/libtkdnhal.a(tkdn_tone.o)
+ D              0x00001958       0x30 ./gr_common/lib/libtkdnhal.a(usb_core.o)
+ D              0x00001988       0x24 ./gr_common/lib/libtkdnhal.a(usb_hal.o)
+ D              0x000019ac        0x8 ./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+                0x000019ac                USBI1_handler
+                0x000019b0                USBI0_handler
+ D              0x000019b4        0x4 ./gr_mruby/libmruby.a(proc.o)
+ *(D_1)
+ D_1            0x000019b8        0x0 ./gr_common/gstart.o
+ D_1            0x000019b8        0x0 ./sample.o
+ D_1            0x000019b8        0x0 ./gr_sketch.o
+ D_1            0x000019b8        0x0 ./gr_common/intvect.o
+ D_1            0x000019b8        0x0 ./gr_common/lowlevel.o
+ D_1            0x000019b8        0x0 ./gr_common/lib/libc.a(lib_a-errno.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libc.a(lib_a-impure.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/librxduino.a(digitalio.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/librxduino.a(rxduino.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/librxduino.a(delay.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(hwsetup.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_timer.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_gpio.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_pwm.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_tone.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(phy.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(usb_cdc.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(usb_core.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(usb_hal.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(usbdescriptors.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_servo.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib/libtkdnhal.a(reboot.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(class.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(error.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(gc.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(hash.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(kernel.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(load.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(object.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(print.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(proc.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(state.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(string.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(symbol.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(variable.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(vm.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(array.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(backtrace.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(crc.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(debug.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(etc.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(init.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(numeric.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(range.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(mrblib.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(gem_init.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(compar.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(enum.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(gem_init.o)
+ D_1            0x000019b8        0x0 ./gr_mruby/libmruby.a(math.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-abort.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-ctype_.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-exit.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fread.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fseek.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fstatr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-ftell.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fwrite.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-makebuf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-malloc.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-memchr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-memcpy.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-memset.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-mlock.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-printf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-realloc.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-reallocr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-reent.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-refill.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-sbrkr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-setjmp.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-sf_fpclassify.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-sf_frexp.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-sf_ldexp.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-sf_scalbn.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-signal.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-signalr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-stdio.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-strlen.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-strtod.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-strtoul.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-vsnprintf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-wbuf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-writer.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-wsetup.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-__call_atexit.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-closer.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-dtoa.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fflush.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-findfp.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-freer.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fvwrite.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fwalk.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-gdtoa-hexnan.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-isattyr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-locale.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-lseekr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-memmove.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-mprec.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-readr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-sf_copysign.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-sf_finite.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-sf_nan.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-strcmp.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-strncmp.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-callocr.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fclose.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-fputwc.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-wcrtomb.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libc.a(lib_a-wctomb_r.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libsim.a(exit.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libsim.a(getpid.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libsim.a(kill.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libgcc.a(_udivdi3.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libgcc.a(_umoddi3.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libgcc.a(_clz.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_asinh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_atan.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_cbrt.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_ceil.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_cos.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_erf.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_fabs.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_floor.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_log1p.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_sin.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_tanh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_tan.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_acosh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_acos.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_asin.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_atan2.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_atanh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_cosh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_exp.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_fmod.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_hypot.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_log10.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_log.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_pow.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_sinh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-wf_sqrt.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_acosh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_acos.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_asin.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_atan2.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_atanh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_cosh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_exp.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_fmod.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_hypot.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_log10.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_log.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_sinh.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-ef_sqrt.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-kf_cos.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-kf_rem_pio2.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-kf_sin.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-kf_tan.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_expm1.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-sf_rint.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-s_lib_ver.o)
+ D_1            0x000019b8        0x0 ./gr_common/lib//libm.a(lib_a-s_matherr.o)
+ *(D_2)
+                0x000019b8                _edata = .
+
+.gcc_exc
+ *(.gcc_exc)
+
+.bss            0x000019b8     0x1a68 load address 0xfff2b4b4
+                0x000019b8                _bss = .
+ *(.bss)
+ *(.bss.*)
+ .bss.__malloc_current_mallinfo
+                0x000019b8       0x28 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+                0x000019b8                __malloc_current_mallinfo
+ .bss.__malloc_max_total_mem
+                0x000019e0        0x4 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+                0x000019e0                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x000019e4        0x4 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+                0x000019e4                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x000019e8        0x4 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+                0x000019e8                __malloc_top_pad
+ .bss._PathLocale
+                0x000019ec        0x4 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0x000019ec                _PathLocale
+ .bss.__mlocale_changed
+                0x000019f0        0x4 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0x000019f0                __mlocale_changed
+ .bss.__nlocale_changed
+                0x000019f4        0x4 ./gr_common/lib//libc.a(lib_a-locale.o)
+                0x000019f4                __nlocale_changed
+ *(COMMON)
+ COMMON         0x000019f8      0x238 ./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+                0x000019f8                sci_default
+                0x00001c14                sci_handles
+                0x00001c2c                psci_default
+ COMMON         0x00001c30        0x4 ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+                0x00001c30                user_rx_func
+ COMMON         0x00001c34       0x20 ./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+                0x00001c34                ifunc
+ COMMON         0x00001c54        0x4 ./gr_common/lib//libc.a(lib_a-reent.o)
+                0x00001c54                errno
+ COMMON         0x00001c58      0x100 ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+                0x00001c58                __hexdig
+ *(B)
+ B              0x00001d58        0x8 ./gr_common/lib/libtkdnhal.a(tkdn_timer.o)
+                0x00001d58                ms_updated
+                0x00001d5c                tim_1ms
+ B              0x00001d60        0x4 ./gr_common/lib/libtkdnhal.a(tkdn_pwm.o)
+                0x00001d60                pwmpincount
+ *(B_1)
+ B_1            0x00001d64        0x0 ./gr_common/gstart.o
+ B_1            0x00001d64        0x0 ./sample.o
+ B_1            0x00001d64        0x0 ./gr_sketch.o
+ B_1            0x00001d64        0x0 ./gr_common/intvect.o
+ B_1            0x00001d64        0x0 ./gr_common/lowlevel.o
+ B_1            0x00001d64        0x0 ./gr_common/lib/libc.a(lib_a-errno.o)
+ B_1            0x00001d64        0x0 ./gr_common/lib/libc.a(lib_a-impure.o)
+ B_1            0x00001d64        0x0 ./gr_common/lib/librxduino.a(digitalio.o)
+ B_1            0x00001d64        0x4 ./gr_common/lib/librxduino.a(rxduino.o)
+ B_1            0x00001d68        0x0 ./gr_common/lib/librxduino.a(delay.o)
+ B_1            0x00001d68        0x0 ./gr_common/lib/libtkdnhal.a(hwsetup.o)
+ B_1            0x00001d68        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+ B_1            0x00001d68        0x2 ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+ *fill*         0x00001d6a        0x2 00
+ B_1            0x00001d6c        0xc ./gr_common/lib/libtkdnhal.a(tkdn_timer.o)
+ B_1            0x00001d78        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_gpio.o)
+ B_1            0x00001d78       0x70 ./gr_common/lib/libtkdnhal.a(tkdn_pwm.o)
+ B_1            0x00001de8        0xc ./gr_common/lib/libtkdnhal.a(tkdn_tone.o)
+ B_1            0x00001df4        0x0 ./gr_common/lib/libtkdnhal.a(phy.o)
+ B_1            0x00001df4       0x10 ./gr_common/lib/libtkdnhal.a(usb_cdc.o)
+ B_1            0x00001e04       0x14 ./gr_common/lib/libtkdnhal.a(usb_core.o)
+ B_1            0x00001e18      0x44c ./gr_common/lib/libtkdnhal.a(usb_hal.o)
+ B_1            0x00002264        0x0 ./gr_common/lib/libtkdnhal.a(usbdescriptors.o)
+ B_1            0x00002264        0x0 ./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+ B_1            0x00002264       0xa4 ./gr_common/lib/libtkdnhal.a(tkdn_servo.o)
+ B_1            0x00002308        0x0 ./gr_common/lib/libtkdnhal.a(reboot.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(class.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(error.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(gc.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(hash.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(kernel.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(load.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(object.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(print.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(proc.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(state.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(string.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(symbol.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(variable.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(vm.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(array.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(backtrace.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(crc.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(debug.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(etc.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(init.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(numeric.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(range.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(mrblib.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(gem_init.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(compar.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(enum.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(gem_init.o)
+ B_1            0x00002308        0x0 ./gr_mruby/libmruby.a(math.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-abort.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-ctype_.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-exit.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fread.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fseek.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fstatr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-ftell.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fwrite.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-makebuf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-malloc.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-mallocr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-memchr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-memcpy.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-memset.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-mlock.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-printf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-realloc.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-reallocr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-reent.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-refill.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-sbrkr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-setjmp.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-sf_fpclassify.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-sf_frexp.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-sf_ldexp.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-sf_scalbn.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-signal.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-signalr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-stdio.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-strlen.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-strtod.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-strtoul.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-vsnprintf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-wbuf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-writer.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-wsetup.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-__call_atexit.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-closer.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-dtoa.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fflush.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-findfp.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-freer.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fvwrite.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fwalk.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-gdtoa-hexnan.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-isattyr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-locale.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-lseekr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-memmove.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-mprec.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-readr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-sf_copysign.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-sf_finite.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-sf_nan.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-strcmp.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-strncmp.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-callocr.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fclose.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-fputwc.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-wcrtomb.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libc.a(lib_a-wctomb_r.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libsim.a(exit.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libsim.a(getpid.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libsim.a(kill.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libgcc.a(_udivdi3.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libgcc.a(_umoddi3.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libgcc.a(_clz.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_asinh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_atan.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_cbrt.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_ceil.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_cos.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_erf.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_fabs.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_floor.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_log1p.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_sin.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_tanh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_tan.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_acosh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_acos.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_asin.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_atan2.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_atanh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_cosh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_exp.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_fmod.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_hypot.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_log10.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_log.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_pow.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_sinh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-wf_sqrt.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_acosh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_acos.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_asin.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_atan2.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_atanh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_cosh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_exp.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_fmod.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_hypot.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_log10.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_log.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_sinh.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-ef_sqrt.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-kf_cos.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-kf_rem_pio2.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-kf_sin.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-kf_tan.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_expm1.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-sf_rint.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-s_lib_ver.o)
+ B_1            0x00002308        0x0 ./gr_common/lib//libm.a(lib_a-s_matherr.o)
+ *(B_2)
+                0x00002320                . = ALIGN (0x20)
+ *fill*         0x00002308       0x18 00
+ *(.etherdesc)
+ .etherdesc     0x00002320     0x1100 ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+                0x00003420                _ebss = .
+                0x00003420                _end = .
+OUTPUT(./gr_build/sketch.x elf32-rx-le)
+
+.debug_info     0x00000000    0x2f8f3
+ .debug_info    0x00000000       0x9f ./sample.o
+ .debug_info    0x0000009f      0xbca ./gr_sketch.o
+ .debug_info    0x00000c69      0xc1c ./gr_common/intvect.o
+ .debug_info    0x00001885      0x56f ./gr_common/lowlevel.o
+ .debug_info    0x00001df4     0x3f76 ./gr_mruby/libmruby.a(class.o)
+ .debug_info    0x00005d6a     0x2174 ./gr_mruby/libmruby.a(error.o)
+ .debug_info    0x00007ede     0x2aaa ./gr_mruby/libmruby.a(gc.o)
+ .debug_info    0x0000a988     0x221a ./gr_mruby/libmruby.a(hash.o)
+ .debug_info    0x0000cba2     0x20bb ./gr_mruby/libmruby.a(kernel.o)
+ .debug_info    0x0000ec5d     0x2794 ./gr_mruby/libmruby.a(load.o)
+ .debug_info    0x000113f1     0x15d4 ./gr_mruby/libmruby.a(object.o)
+ .debug_info    0x000129c5     0x141f ./gr_mruby/libmruby.a(print.o)
+ .debug_info    0x00013de4     0x1433 ./gr_mruby/libmruby.a(proc.o)
+ .debug_info    0x00015217      0xecd ./gr_mruby/libmruby.a(state.o)
+ .debug_info    0x000160e4     0x3664 ./gr_mruby/libmruby.a(string.o)
+ .debug_info    0x00019748     0x1653 ./gr_mruby/libmruby.a(symbol.o)
+ .debug_info    0x0001ad9b     0x2a84 ./gr_mruby/libmruby.a(variable.o)
+ .debug_info    0x0001d81f     0x3226 ./gr_mruby/libmruby.a(vm.o)
+ .debug_info    0x00020a45     0x27b3 ./gr_mruby/libmruby.a(array.o)
+ .debug_info    0x000231f8     0x1ad5 ./gr_mruby/libmruby.a(backtrace.o)
+ .debug_info    0x00024ccd      0x112 ./gr_mruby/libmruby.a(crc.o)
+ .debug_info    0x00024ddf      0xeb2 ./gr_mruby/libmruby.a(debug.o)
+ .debug_info    0x00025c91      0xe6e ./gr_mruby/libmruby.a(etc.o)
+ .debug_info    0x00026aff      0x8ea ./gr_mruby/libmruby.a(init.o)
+ .debug_info    0x000273e9     0x1eaa ./gr_mruby/libmruby.a(numeric.o)
+ .debug_info    0x00029293     0x12d5 ./gr_mruby/libmruby.a(range.o)
+ .debug_info    0x0002a568      0xb79 ./gr_mruby/libmruby.a(mrblib.o)
+ .debug_info    0x0002b0e1      0x8e8 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_info    0x0002b9c9      0x8c0 ./gr_mruby/libmruby.a(compar.o)
+ .debug_info    0x0002c289      0x8c0 ./gr_mruby/libmruby.a(enum.o)
+ .debug_info    0x0002cb49      0xb76 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_info    0x0002d6bf     0x10a8 ./gr_mruby/libmruby.a(math.o)
+ .debug_info    0x0002e767       0xbb ./gr_common/lib//libsim.a(exit.o)
+ .debug_info    0x0002e822       0xbd ./gr_common/lib//libsim.a(getpid.o)
+ .debug_info    0x0002e8df       0xbb ./gr_common/lib//libsim.a(kill.o)
+ .debug_info    0x0002e99a      0x72a ./gr_common/lib//libgcc.a(_udivdi3.o)
+ .debug_info    0x0002f0c4      0x77b ./gr_common/lib//libgcc.a(_umoddi3.o)
+ .debug_info    0x0002f83f       0xb4 ./gr_common/lib//libgcc.a(_clz.o)
+
+.debug_abbrev   0x00000000     0x698a
+ .debug_abbrev  0x00000000       0x61 ./sample.o
+ .debug_abbrev  0x00000061      0x26c ./gr_sketch.o
+ .debug_abbrev  0x000002cd       0xf0 ./gr_common/intvect.o
+ .debug_abbrev  0x000003bd      0x15e ./gr_common/lowlevel.o
+ .debug_abbrev  0x0000051b      0x587 ./gr_mruby/libmruby.a(class.o)
+ .debug_abbrev  0x00000aa2      0x48a ./gr_mruby/libmruby.a(error.o)
+ .debug_abbrev  0x00000f2c      0x4c0 ./gr_mruby/libmruby.a(gc.o)
+ .debug_abbrev  0x000013ec      0x51b ./gr_mruby/libmruby.a(hash.o)
+ .debug_abbrev  0x00001907      0x464 ./gr_mruby/libmruby.a(kernel.o)
+ .debug_abbrev  0x00001d6b      0x4b0 ./gr_mruby/libmruby.a(load.o)
+ .debug_abbrev  0x0000221b      0x3f2 ./gr_mruby/libmruby.a(object.o)
+ .debug_abbrev  0x0000260d      0x2e9 ./gr_mruby/libmruby.a(print.o)
+ .debug_abbrev  0x000028f6      0x393 ./gr_mruby/libmruby.a(proc.o)
+ .debug_abbrev  0x00002c89      0x33d ./gr_mruby/libmruby.a(state.o)
+ .debug_abbrev  0x00002fc6      0x57b ./gr_mruby/libmruby.a(string.o)
+ .debug_abbrev  0x00003541      0x467 ./gr_mruby/libmruby.a(symbol.o)
+ .debug_abbrev  0x000039a8      0x4b4 ./gr_mruby/libmruby.a(variable.o)
+ .debug_abbrev  0x00003e5c      0x44c ./gr_mruby/libmruby.a(vm.o)
+ .debug_abbrev  0x000042a8      0x4f6 ./gr_mruby/libmruby.a(array.o)
+ .debug_abbrev  0x0000479e      0x32a ./gr_mruby/libmruby.a(backtrace.o)
+ .debug_abbrev  0x00004ac8       0x98 ./gr_mruby/libmruby.a(crc.o)
+ .debug_abbrev  0x00004b60      0x2d0 ./gr_mruby/libmruby.a(debug.o)
+ .debug_abbrev  0x00004e30      0x31f ./gr_mruby/libmruby.a(etc.o)
+ .debug_abbrev  0x0000514f      0x1a1 ./gr_mruby/libmruby.a(init.o)
+ .debug_abbrev  0x000052f0      0x3dd ./gr_mruby/libmruby.a(numeric.o)
+ .debug_abbrev  0x000056cd      0x3f8 ./gr_mruby/libmruby.a(range.o)
+ .debug_abbrev  0x00005ac5      0x1fa ./gr_mruby/libmruby.a(mrblib.o)
+ .debug_abbrev  0x00005cbf      0x1a1 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_abbrev  0x00005e60      0x18a ./gr_mruby/libmruby.a(compar.o)
+ .debug_abbrev  0x00005fea      0x18a ./gr_mruby/libmruby.a(enum.o)
+ .debug_abbrev  0x00006174      0x1f5 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_abbrev  0x00006369      0x265 ./gr_mruby/libmruby.a(math.o)
+ .debug_abbrev  0x000065ce       0x14 ./gr_common/lib//libsim.a(exit.o)
+ .debug_abbrev  0x000065e2       0x14 ./gr_common/lib//libsim.a(getpid.o)
+ .debug_abbrev  0x000065f6       0x14 ./gr_common/lib//libsim.a(kill.o)
+ .debug_abbrev  0x0000660a      0x17e ./gr_common/lib//libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x00006788      0x1a1 ./gr_common/lib//libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x00006929       0x61 ./gr_common/lib//libgcc.a(_clz.o)
+
+.debug_line     0x00000000    0x1cc4b
+ .debug_line    0x00000000       0xa9 ./sample.o
+ .debug_line    0x000000a9      0x269 ./gr_sketch.o
+ .debug_line    0x00000312      0x897 ./gr_common/intvect.o
+ .debug_line    0x00000ba9      0x3f4 ./gr_common/lowlevel.o
+ .debug_line    0x00000f9d     0x2ef0 ./gr_mruby/libmruby.a(class.o)
+ .debug_line    0x00003e8d      0xd6b ./gr_mruby/libmruby.a(error.o)
+ .debug_line    0x00004bf8     0x1ab8 ./gr_mruby/libmruby.a(gc.o)
+ .debug_line    0x000066b0     0x16e3 ./gr_mruby/libmruby.a(hash.o)
+ .debug_line    0x00007d93     0x124c ./gr_mruby/libmruby.a(kernel.o)
+ .debug_line    0x00008fdf     0x1908 ./gr_mruby/libmruby.a(load.o)
+ .debug_line    0x0000a8e7      0xad2 ./gr_mruby/libmruby.a(object.o)
+ .debug_line    0x0000b3b9      0x3c5 ./gr_mruby/libmruby.a(print.o)
+ .debug_line    0x0000b77e      0x7d4 ./gr_mruby/libmruby.a(proc.o)
+ .debug_line    0x0000bf52      0x5cc ./gr_mruby/libmruby.a(state.o)
+ .debug_line    0x0000c51e     0x341b ./gr_mruby/libmruby.a(string.o)
+ .debug_line    0x0000f939      0xc06 ./gr_mruby/libmruby.a(symbol.o)
+ .debug_line    0x0001053f     0x1a65 ./gr_mruby/libmruby.a(variable.o)
+ .debug_line    0x00011fa4     0x3e05 ./gr_mruby/libmruby.a(vm.o)
+ .debug_line    0x00015da9     0x229e ./gr_mruby/libmruby.a(array.o)
+ .debug_line    0x00018047      0x53b ./gr_mruby/libmruby.a(backtrace.o)
+ .debug_line    0x00018582      0x174 ./gr_mruby/libmruby.a(crc.o)
+ .debug_line    0x000186f6      0x762 ./gr_mruby/libmruby.a(debug.o)
+ .debug_line    0x00018e58      0x4f1 ./gr_mruby/libmruby.a(etc.o)
+ .debug_line    0x00019349      0x273 ./gr_mruby/libmruby.a(init.o)
+ .debug_line    0x000195bc     0x1655 ./gr_mruby/libmruby.a(numeric.o)
+ .debug_line    0x0001ac11      0x8f8 ./gr_mruby/libmruby.a(range.o)
+ .debug_line    0x0001b509      0x1f8 ./gr_mruby/libmruby.a(mrblib.o)
+ .debug_line    0x0001b701      0x1da ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_line    0x0001b8db      0x1b5 ./gr_mruby/libmruby.a(compar.o)
+ .debug_line    0x0001ba90      0x1b3 ./gr_mruby/libmruby.a(enum.o)
+ .debug_line    0x0001bc43      0x23e ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_line    0x0001be81      0x652 ./gr_mruby/libmruby.a(math.o)
+ .debug_line    0x0001c4d3       0x74 ./gr_common/lib//libsim.a(exit.o)
+ .debug_line    0x0001c547       0x73 ./gr_common/lib//libsim.a(getpid.o)
+ .debug_line    0x0001c5ba       0x71 ./gr_common/lib//libsim.a(kill.o)
+ .debug_line    0x0001c62b      0x2ea ./gr_common/lib//libgcc.a(_udivdi3.o)
+ .debug_line    0x0001c915      0x2e1 ./gr_common/lib//libgcc.a(_umoddi3.o)
+ .debug_line    0x0001cbf6       0x55 ./gr_common/lib//libgcc.a(_clz.o)
+
+.debug_str      0x00000000     0x54cd
+ .debug_str     0x00000000       0x90 ./sample.o
+                                 0xc9 (size before relaxing)
+ .debug_str     0x00000090      0x5ad ./gr_sketch.o
+                                0x71d (size before relaxing)
+ .debug_str     0x0000063d      0x8c0 ./gr_common/intvect.o
+                                0x93d (size before relaxing)
+ .debug_str     0x00000efd      0x11c ./gr_common/lowlevel.o
+                                0x254 (size before relaxing)
+ .debug_str     0x00001019      0x901 ./gr_mruby/libmruby.a(class.o)
+                               0x101d (size before relaxing)
+ .debug_str     0x0000191a      0x5c3 ./gr_mruby/libmruby.a(error.o)
+                                0xdda (size before relaxing)
+ .debug_str     0x00001edd      0x448 ./gr_mruby/libmruby.a(gc.o)
+                                0xc69 (size before relaxing)
+ .debug_str     0x00002325      0x3c9 ./gr_mruby/libmruby.a(hash.o)
+                                0xb49 (size before relaxing)
+ .debug_str     0x000026ee      0x41e ./gr_mruby/libmruby.a(kernel.o)
+                                0xbfc (size before relaxing)
+ .debug_str     0x00002b0c      0x38b ./gr_mruby/libmruby.a(load.o)
+                                0xeec (size before relaxing)
+ .debug_str     0x00002e97      0x1f0 ./gr_mruby/libmruby.a(object.o)
+                                0x8b4 (size before relaxing)
+ .debug_str     0x00003087       0x9b ./gr_mruby/libmruby.a(print.o)
+                                0xa6d (size before relaxing)
+ .debug_str     0x00003122      0x171 ./gr_mruby/libmruby.a(proc.o)
+                                0xb38 (size before relaxing)
+ .debug_str     0x00003293       0xeb ./gr_mruby/libmruby.a(state.o)
+                                0x843 (size before relaxing)
+ .debug_str     0x0000337e      0x60f ./gr_mruby/libmruby.a(string.o)
+                                0xd6d (size before relaxing)
+ .debug_str     0x0000398d      0x22c ./gr_mruby/libmruby.a(symbol.o)
+                                0x963 (size before relaxing)
+ .debug_str     0x00003bb9      0x402 ./gr_mruby/libmruby.a(variable.o)
+                                0xba7 (size before relaxing)
+ .debug_str     0x00003fbb      0x5a6 ./gr_mruby/libmruby.a(vm.o)
+                               0x1055 (size before relaxing)
+ .debug_str     0x00004561      0x396 ./gr_mruby/libmruby.a(array.o)
+                                0xaad (size before relaxing)
+ .debug_str     0x000048f7       0xc5 ./gr_mruby/libmruby.a(backtrace.o)
+                                0xcba (size before relaxing)
+ .debug_str     0x000049bc       0x59 ./gr_mruby/libmruby.a(crc.o)
+                                0x117 (size before relaxing)
+ .debug_str     0x00004a15      0x10a ./gr_mruby/libmruby.a(debug.o)
+                                0x836 (size before relaxing)
+ .debug_str     0x00004b1f       0xe4 ./gr_mruby/libmruby.a(etc.o)
+                                0x747 (size before relaxing)
+ .debug_str     0x00004c03       0x5a ./gr_mruby/libmruby.a(init.o)
+                                0x63d (size before relaxing)
+ .debug_str     0x00004c5d      0x2a0 ./gr_mruby/libmruby.a(numeric.o)
+                                0x962 (size before relaxing)
+ .debug_str     0x00004efd      0x155 ./gr_mruby/libmruby.a(range.o)
+                                0x7d3 (size before relaxing)
+ .debug_str     0x00005052       0x6d ./gr_mruby/libmruby.a(mrblib.o)
+                                0x6e5 (size before relaxing)
+ .debug_str     0x000050bf       0x77 ./gr_mruby/libmruby.a(gem_init.o)
+                                0x65a (size before relaxing)
+ .debug_str     0x00005136       0x53 ./gr_mruby/libmruby.a(compar.o)
+                                0x636 (size before relaxing)
+ .debug_str     0x00005189       0x51 ./gr_mruby/libmruby.a(enum.o)
+                                0x634 (size before relaxing)
+ .debug_str     0x000051da       0xac ./gr_mruby/libmruby.a(gem_init.o)
+                                0x724 (size before relaxing)
+ .debug_str     0x00005286      0x14b ./gr_mruby/libmruby.a(math.o)
+                                0x796 (size before relaxing)
+ .debug_str     0x000053d1       0xf2 ./gr_common/lib//libgcc.a(_udivdi3.o)
+                                0x19b (size before relaxing)
+ .debug_str     0x000054c3        0xa ./gr_common/lib//libgcc.a(_umoddi3.o)
+                                0x19b (size before relaxing)
+ .debug_str     0x00000000      0x105 ./gr_common/lib//libgcc.a(_clz.o)
+
+.comment        0x00000000       0x2d
+ .comment       0x00000000       0x11 ./sample.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 ./gr_sketch.o
+ .comment       0x00000000       0x12 ./gr_common/intvect.o
+ .comment       0x00000000       0x12 ./gr_common/lowlevel.o
+ .comment       0x00000011       0x1c ./gr_common/lib/libc.a(lib_a-errno.o)
+                                 0x1d (size before relaxing)
+ .comment       0x00000000       0x1d ./gr_common/lib/libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/librxduino.a(digitalio.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/librxduino.a(rxduino.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/librxduino.a(delay.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(hwsetup.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(tkdn_sci.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(tkdn_ether.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(tkdn_timer.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(tkdn_gpio.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(tkdn_pwm.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(tkdn_tone.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(phy.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(usb_cdc.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(usb_core.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(usb_hal.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(usbdescriptors.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(tkdn_interrupt.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(tkdn_servo.o)
+ .comment       0x00000000       0x12 ./gr_common/lib/libtkdnhal.a(reboot.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(class.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(error.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(gc.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(hash.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(kernel.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(load.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(object.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(print.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(proc.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(state.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(string.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(symbol.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(variable.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(vm.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(array.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(backtrace.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(crc.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(debug.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(etc.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(init.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(numeric.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(range.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(mrblib.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(gem_init.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(compar.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(enum.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(gem_init.o)
+ .comment       0x00000000       0x12 ./gr_mruby/libmruby.a(math.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-abort.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-ctype_.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fread.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fseek.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fstatr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-ftell.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fwrite.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-makebuf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-malloc.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-mallocr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-mlock.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-printf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-realloc.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-reallocr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-reent.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-refill.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-sbrkr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-sf_fpclassify.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-sf_frexp.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-sf_ldexp.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-sf_scalbn.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-signal.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-signalr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-stdio.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-strtod.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-strtoul.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-vfprintf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-vsnprintf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-wbuf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-writer.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-wsetup.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-closer.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-dtoa.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fflush.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-findfp.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-freer.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fvwrite.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fwalk.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-gdtoa-hexnan.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-isattyr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-locale.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-lseekr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-mprec.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-readr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-sf_copysign.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-sf_finite.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-sf_nan.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-svfprintf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-vfiprintf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-callocr.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fclose.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-fputwc.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-gdtoa-gethex.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-svfiprintf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-wcrtomb.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libc.a(lib_a-wctomb_r.o)
+ .comment       0x00000000       0x12 ./gr_common/lib//libgcc.a(_udivdi3.o)
+ .comment       0x00000000       0x12 ./gr_common/lib//libgcc.a(_umoddi3.o)
+ .comment       0x00000000       0x12 ./gr_common/lib//libgcc.a(_clz.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_asinh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_atan.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_cbrt.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_ceil.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_cos.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_erf.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_fabs.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_floor.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_log1p.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_sin.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_tanh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_tan.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_acosh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_acos.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_asin.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_atan2.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_atanh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_cosh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_exp.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_fmod.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_hypot.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_log10.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_log.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_pow.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_sinh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-wf_sqrt.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_acosh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_acos.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_asin.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_atan2.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_atanh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_cosh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_exp.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_fmod.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_hypot.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_log10.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_log.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_pow.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_rem_pio2.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_sinh.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-ef_sqrt.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-kf_cos.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-kf_rem_pio2.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-kf_sin.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-kf_tan.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_expm1.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-sf_rint.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-s_lib_ver.o)
+ .comment       0x00000000       0x1d ./gr_common/lib//libm.a(lib_a-s_matherr.o)
+
+.debug_frame    0x00000000     0x5730
+ .debug_frame   0x00000000       0x54 ./gr_sketch.o
+ .debug_frame   0x00000054      0x880 ./gr_common/intvect.o
+ .debug_frame   0x000008d4       0xbc ./gr_common/lowlevel.o
+ .debug_frame   0x00000990      0xb90 ./gr_mruby/libmruby.a(class.o)
+ .debug_frame   0x00001520      0x2b4 ./gr_mruby/libmruby.a(error.o)
+ .debug_frame   0x000017d4      0x3f0 ./gr_mruby/libmruby.a(gc.o)
+ .debug_frame   0x00001bc4      0x5e4 ./gr_mruby/libmruby.a(hash.o)
+ .debug_frame   0x000021a8      0x50c ./gr_mruby/libmruby.a(kernel.o)
+ .debug_frame   0x000026b4      0x164 ./gr_mruby/libmruby.a(load.o)
+ .debug_frame   0x00002818      0x2f8 ./gr_mruby/libmruby.a(object.o)
+ .debug_frame   0x00002b10       0x70 ./gr_mruby/libmruby.a(print.o)
+ .debug_frame   0x00002b80      0x16c ./gr_mruby/libmruby.a(proc.o)
+ .debug_frame   0x00002cec      0x120 ./gr_mruby/libmruby.a(state.o)
+ .debug_frame   0x00002e0c      0x968 ./gr_mruby/libmruby.a(string.o)
+ .debug_frame   0x00003774      0x328 ./gr_mruby/libmruby.a(symbol.o)
+ .debug_frame   0x00003a9c      0x61c ./gr_mruby/libmruby.a(variable.o)
+ .debug_frame   0x000040b8      0x1e8 ./gr_mruby/libmruby.a(vm.o)
+ .debug_frame   0x000042a0      0x640 ./gr_mruby/libmruby.a(array.o)
+ .debug_frame   0x000048e0       0xa8 ./gr_mruby/libmruby.a(backtrace.o)
+ .debug_frame   0x00004988       0x24 ./gr_mruby/libmruby.a(crc.o)
+ .debug_frame   0x000049ac       0x98 ./gr_mruby/libmruby.a(debug.o)
+ .debug_frame   0x00004a44       0xf8 ./gr_mruby/libmruby.a(etc.o)
+ .debug_frame   0x00004b3c       0x48 ./gr_mruby/libmruby.a(init.o)
+ .debug_frame   0x00004b84      0x5d0 ./gr_mruby/libmruby.a(numeric.o)
+ .debug_frame   0x00005154      0x1fc ./gr_mruby/libmruby.a(range.o)
+ .debug_frame   0x00005350       0x24 ./gr_mruby/libmruby.a(mrblib.o)
+ .debug_frame   0x00005374       0x34 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_frame   0x000053a8       0x24 ./gr_mruby/libmruby.a(compar.o)
+ .debug_frame   0x000053cc       0x24 ./gr_mruby/libmruby.a(enum.o)
+ .debug_frame   0x000053f0       0x40 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_frame   0x00005430      0x290 ./gr_mruby/libmruby.a(math.o)
+ .debug_frame   0x000056c0       0x38 ./gr_common/lib//libgcc.a(_udivdi3.o)
+ .debug_frame   0x000056f8       0x38 ./gr_common/lib//libgcc.a(_umoddi3.o)
+
+.debug_loc      0x00000000    0x25d33
+ .debug_loc     0x00000000       0xa1 ./gr_sketch.o
+ .debug_loc     0x000000a1      0x138 ./gr_common/intvect.o
+ .debug_loc     0x000001d9      0x35e ./gr_common/lowlevel.o
+ .debug_loc     0x00000537     0x48b5 ./gr_mruby/libmruby.a(class.o)
+ .debug_loc     0x00004dec     0x1123 ./gr_mruby/libmruby.a(error.o)
+ .debug_loc     0x00005f0f     0x1a61 ./gr_mruby/libmruby.a(gc.o)
+ .debug_loc     0x00007970     0x21df ./gr_mruby/libmruby.a(hash.o)
+ .debug_loc     0x00009b4f     0x1a93 ./gr_mruby/libmruby.a(kernel.o)
+ .debug_loc     0x0000b5e2     0x1a06 ./gr_mruby/libmruby.a(load.o)
+ .debug_loc     0x0000cfe8     0x11d2 ./gr_mruby/libmruby.a(object.o)
+ .debug_loc     0x0000e1ba       0xf8 ./gr_mruby/libmruby.a(print.o)
+ .debug_loc     0x0000e2b2      0x69d ./gr_mruby/libmruby.a(proc.o)
+ .debug_loc     0x0000e94f      0x3c5 ./gr_mruby/libmruby.a(state.o)
+ .debug_loc     0x0000ed14     0x4a10 ./gr_mruby/libmruby.a(string.o)
+ .debug_loc     0x00013724     0x13f8 ./gr_mruby/libmruby.a(symbol.o)
+ .debug_loc     0x00014b1c     0x273a ./gr_mruby/libmruby.a(variable.o)
+ .debug_loc     0x00017256     0x59ba ./gr_mruby/libmruby.a(vm.o)
+ .debug_loc     0x0001cc10     0x2d14 ./gr_mruby/libmruby.a(array.o)
+ .debug_loc     0x0001f924      0x48d ./gr_mruby/libmruby.a(backtrace.o)
+ .debug_loc     0x0001fdb1       0x78 ./gr_mruby/libmruby.a(crc.o)
+ .debug_loc     0x0001fe29      0x743 ./gr_mruby/libmruby.a(debug.o)
+ .debug_loc     0x0002056c      0x6fe ./gr_mruby/libmruby.a(etc.o)
+ .debug_loc     0x00020c6a       0x92 ./gr_mruby/libmruby.a(init.o)
+ .debug_loc     0x00020cfc     0x2206 ./gr_mruby/libmruby.a(numeric.o)
+ .debug_loc     0x00022f02      0xa03 ./gr_mruby/libmruby.a(range.o)
+ .debug_loc     0x00023905       0x13 ./gr_mruby/libmruby.a(mrblib.o)
+ .debug_loc     0x00023918       0x26 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_loc     0x0002393e       0x13 ./gr_mruby/libmruby.a(compar.o)
+ .debug_loc     0x00023951       0x13 ./gr_mruby/libmruby.a(enum.o)
+ .debug_loc     0x00023964       0x85 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_loc     0x000239e9      0x8fa ./gr_mruby/libmruby.a(math.o)
+ .debug_loc     0x000242e3      0xdc1 ./gr_common/lib//libgcc.a(_udivdi3.o)
+ .debug_loc     0x000250a4      0xc8f ./gr_common/lib//libgcc.a(_umoddi3.o)
+
+.debug_aranges  0x00000000      0x488
+ .debug_aranges
+                0x00000000       0x20 ./gr_sketch.o
+ .debug_aranges
+                0x00000020       0x20 ./gr_common/intvect.o
+ .debug_aranges
+                0x00000040       0x20 ./gr_common/lowlevel.o
+ .debug_aranges
+                0x00000060       0x20 ./gr_mruby/libmruby.a(class.o)
+ .debug_aranges
+                0x00000080       0x20 ./gr_mruby/libmruby.a(error.o)
+ .debug_aranges
+                0x000000a0       0x20 ./gr_mruby/libmruby.a(gc.o)
+ .debug_aranges
+                0x000000c0       0x20 ./gr_mruby/libmruby.a(hash.o)
+ .debug_aranges
+                0x000000e0       0x20 ./gr_mruby/libmruby.a(kernel.o)
+ .debug_aranges
+                0x00000100       0x20 ./gr_mruby/libmruby.a(load.o)
+ .debug_aranges
+                0x00000120       0x20 ./gr_mruby/libmruby.a(object.o)
+ .debug_aranges
+                0x00000140       0x20 ./gr_mruby/libmruby.a(print.o)
+ .debug_aranges
+                0x00000160       0x20 ./gr_mruby/libmruby.a(proc.o)
+ .debug_aranges
+                0x00000180       0x20 ./gr_mruby/libmruby.a(state.o)
+ .debug_aranges
+                0x000001a0       0x20 ./gr_mruby/libmruby.a(string.o)
+ .debug_aranges
+                0x000001c0       0x20 ./gr_mruby/libmruby.a(symbol.o)
+ .debug_aranges
+                0x000001e0       0x20 ./gr_mruby/libmruby.a(variable.o)
+ .debug_aranges
+                0x00000200       0x28 ./gr_mruby/libmruby.a(vm.o)
+ .debug_aranges
+                0x00000228       0x20 ./gr_mruby/libmruby.a(array.o)
+ .debug_aranges
+                0x00000248       0x20 ./gr_mruby/libmruby.a(backtrace.o)
+ .debug_aranges
+                0x00000268       0x20 ./gr_mruby/libmruby.a(crc.o)
+ .debug_aranges
+                0x00000288       0x20 ./gr_mruby/libmruby.a(debug.o)
+ .debug_aranges
+                0x000002a8       0x20 ./gr_mruby/libmruby.a(etc.o)
+ .debug_aranges
+                0x000002c8       0x20 ./gr_mruby/libmruby.a(init.o)
+ .debug_aranges
+                0x000002e8       0x20 ./gr_mruby/libmruby.a(numeric.o)
+ .debug_aranges
+                0x00000308       0x20 ./gr_mruby/libmruby.a(range.o)
+ .debug_aranges
+                0x00000328       0x20 ./gr_mruby/libmruby.a(mrblib.o)
+ .debug_aranges
+                0x00000348       0x20 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_aranges
+                0x00000368       0x20 ./gr_mruby/libmruby.a(compar.o)
+ .debug_aranges
+                0x00000388       0x20 ./gr_mruby/libmruby.a(enum.o)
+ .debug_aranges
+                0x000003a8       0x20 ./gr_mruby/libmruby.a(gem_init.o)
+ .debug_aranges
+                0x000003c8       0x20 ./gr_mruby/libmruby.a(math.o)
+ .debug_aranges
+                0x000003e8       0x20 ./gr_common/lib//libsim.a(exit.o)
+ .debug_aranges
+                0x00000408       0x20 ./gr_common/lib//libsim.a(getpid.o)
+ .debug_aranges
+                0x00000428       0x20 ./gr_common/lib//libsim.a(kill.o)
+ .debug_aranges
+                0x00000448       0x20 ./gr_common/lib//libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000468       0x20 ./gr_common/lib//libgcc.a(_umoddi3.o)
+
+.debug_ranges   0x00000000     0x3540
+ .debug_ranges  0x00000000       0x28 ./gr_common/lowlevel.o
+ .debug_ranges  0x00000028      0x4c0 ./gr_mruby/libmruby.a(class.o)
+ .debug_ranges  0x000004e8       0xc8 ./gr_mruby/libmruby.a(error.o)
+ .debug_ranges  0x000005b0      0x498 ./gr_mruby/libmruby.a(gc.o)
+ .debug_ranges  0x00000a48      0x2a0 ./gr_mruby/libmruby.a(hash.o)
+ .debug_ranges  0x00000ce8      0x108 ./gr_mruby/libmruby.a(kernel.o)
+ .debug_ranges  0x00000df0      0x380 ./gr_mruby/libmruby.a(load.o)
+ .debug_ranges  0x00001170       0xb8 ./gr_mruby/libmruby.a(object.o)
+ .debug_ranges  0x00001228       0x28 ./gr_mruby/libmruby.a(print.o)
+ .debug_ranges  0x00001250       0xe0 ./gr_mruby/libmruby.a(proc.o)
+ .debug_ranges  0x00001330      0x478 ./gr_mruby/libmruby.a(string.o)
+ .debug_ranges  0x000017a8      0x118 ./gr_mruby/libmruby.a(symbol.o)
+ .debug_ranges  0x000018c0      0x468 ./gr_mruby/libmruby.a(variable.o)
+ .debug_ranges  0x00001d28      0xb70 ./gr_mruby/libmruby.a(vm.o)
+ .debug_ranges  0x00002898      0x470 ./gr_mruby/libmruby.a(array.o)
+ .debug_ranges  0x00002d08       0x30 ./gr_mruby/libmruby.a(backtrace.o)
+ .debug_ranges  0x00002d38      0x138 ./gr_mruby/libmruby.a(debug.o)
+ .debug_ranges  0x00002e70       0x80 ./gr_mruby/libmruby.a(etc.o)
+ .debug_ranges  0x00002ef0      0x268 ./gr_mruby/libmruby.a(numeric.o)
+ .debug_ranges  0x00003158       0x80 ./gr_mruby/libmruby.a(range.o)
+ .debug_ranges  0x000031d8      0x1d8 ./gr_common/lib//libgcc.a(_udivdi3.o)
+ .debug_ranges  0x000033b0      0x190 ./gr_common/lib//libgcc.a(_umoddi3.o)

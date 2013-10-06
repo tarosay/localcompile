@@ -1,2 +1,1 @@
-localcompile
-============
+GR-SAKURAでmrubyを動かすローカルビルドサンプルです。
